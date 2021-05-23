@@ -39,19 +39,20 @@ Asian Flavors gives access to all recipes in the database for all registered and
 
 ** Returning Users **
 
-
 -	As a returning user I want to be able to edit my added recipes.
-    As a returning user, I want to be able to log in and out easily.
+-   As a returning user, I want to be able to log in and out easily.
 
 ** Site owner’s Goal: **
+
 •	As the site owner, I want the user to have an easily accessible site.
-•	As the site owner, I want the user to be able to see all recipes added by the registered users.
+•	As the site owner, I want the user to be able to see all recipes added by       the registered users.
 
 ### **Design choices**
 
 The goal of the design was to create a website that is user-friendly, has a simple appearance and to provide clear information about (new) recipes.
 
 **Framework**
+
 * Front-end framework, [Materialize](https://materializecss.com/), 
 Materialize has been used to for this website. It was used for creating functions such as navigation bar, maps and forms.
 
