@@ -30,6 +30,22 @@ To view the live version of the site, please click [here]()
 The goal of this full-stack MongoDB-based Flask project is to create a recipe database that allows users (CRUD) to add, read, update, and delete recipes.
 Asian Flavors gives access to all recipes in the database for all registered and non-registered users. Registered users can add new recipes, edit and delete their own recipes.
 
+### ** UX **
+** First time user **
+
+-	As a first time user, I want an easy navigation website so that add and see     my (new) recipes.
+-	As a first user, I want a clear looking website so that the recipes are         easy to follow.
+-	As a first user, I want to be able to register.
+
+** Returning Users **
+
+
+-	As a returning user I want to be able to edit my added recipes.
+    As a returning user, I want to be able to log in and out easily.
+
+** Site owner’s Goal: **
+•	As the site owner, I want the user to have an easily accessible site.
+•	As the site owner, I want the user to be able to see all recipes added by the registered users.
 
 ### **Design choices**
 
