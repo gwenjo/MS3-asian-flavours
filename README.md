@@ -1,59 +1,204 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Milestone Project 3**
+**Practical Python and Data-Centric Development Milestone Project.**
 
-Welcome gwenjo,
+**Asian Flavours**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This app is the easiest way to find any recipe that you like, and start cooking right away. You can also add your own recipes just as easily. To make the management of the recipes effortless; the admin can remove any spam from the recipes,if needed.
 
-## Gitpod Reminders
+Sign in, get inspired, contribute, cook and enjoy!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+To view the live version of the site, please click [here]()
 
-`python3 -m http.server`
+![Asian Flavour]()
+## **Contents** ##
+* UX
+    * [Project Summary](#project-summary)
+    * [User Stories](#user-stories)
+    * [Design Choices](#design-choices)
+* [Wireframes](#wireframes)
+* [Features](#features)
 
-A blue button should appear to click: _Make Public_,
+* [Technologies](#technologies)
+* [Testing](#testing)
+* [Fixed Issues](#fixed-issues)
+* [Deployment](#deployment)
+* [Credit](#credits)
 
-Another blue button should appear to click: _Open Browser_.
+## **UX (User Experience)** ##
+### **Project Summary** ###
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The goal of this full-stack MongoDB-based Flask project is to create a recipe database that allows users (CRUD) to add, read, update, and delete recipes.
+Asian Flavors gives access to all recipes in the database for all registered and non-registered users. Registered users can add new recipes, edit and delete their own recipes.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+### **Design choices**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The goal of the design was to create a website that is user-friendly, has a simple appearance and to provide clear information about (new) recipes.
 
-To log into the Heroku toolbelt CLI:
+**Framework**
+* Front-end framework, [Materialize](https://materializecss.com/), 
+Materialize has been used to for this website. It was used for creating functions such as navigation bar, maps and forms.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* [JQuery](https://jquery.com/) was used for initializing some Materialize elements.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+* Micro framework [Flask](https://flask.palletsprojects.com/en/1.1.x/), 
+for this website flask was chosen to build the backend.
 
-## Updates Since The Instructional Video
+- **Typography**
+- I used [Google Fonts]() for the font style of my project:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- **Icons**
+  - I used [Favicon]() to make a unic brand for my website.
+  - I used [FontAwesome]() for my forms and buttons.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- **Colour Scheme**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+For this website I used different shades of pink. There are also colors of gray.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- **Main colour palette**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 ---
+## **Wireframes**
+[Balsamiq Wireframes](https://balsamiq.com/wireframes/) was used to create all wireframes for the project.
 
-Happy coding!
+ 
+---
+
+## **Features**
+
+- **Features Left to Implement**
+
+---
+## **Technologies**
+- **Front-End**
+
+  - [HTML5](https://en.wikipedia.org/wiki/HTML)
+    - To give the page its structure and presenting static data.
+    - All HTML files are located within the 'templates' directory.
+  - [CSS](https://en.wikipedia.org/wiki/CSS)
+    - CSS has been used to style and customise the content of this project.
+  - [Materialize](https://materializecss.com/)
+    - This is a framework that I have used to simplify CSS classes, features that have been used and modified include the navbar, responsive design classes, and colors for backgrounds and text.
+  - [JQuery](https://en.wikipedia.org/wiki/JQuery)
+    - JQuery has been used to give the site its functionality as well as making DOM manipulation simpler.
+
+- **Back-end**
+  - [MongoDB](https://en.wikipedia.org/wiki/MongoDB) 
+    - As the data entered by users can always be different from one to the next, the project uses MongoDB to store its data as MongoDB is a Document Based Database.
+  - [Flask](https://en.wikipedia.org/wiki/Flask_(web_framework))
+    - Flask is a framework that allows developers to easily present data in an orderly fashion. All data entered by a user, such as the Recipe Name, is presented to users with a few lines of code embedded into the HTML.
+      - Modules from Flask that have been included are:
+      - Flask
+      - flash
+      - render_template
+      - redirect
+      - request
+      - session
+      - url_for
+      - PyMongo
+  - [bson.objectid](https://www.npmjs.com/package/bson-objectid)
+      - ObjectId
+  - [werkzeug.security](https://werkzeug.palletsprojects.com/en/1.0.x/utils/)
+      - generate_password_hash
+      - check_password_hash
+  - [datetime](https://docs.python.org/3/library/datetime.html)
+      - datetime
+  - [Python](https://www.python.org/)
+    - Python is working very closely with Flask to manipulate data and HTML across multiple pages within the app.
+- **Deployment**
+  * [Heroku](https://dashboard.heroku.com/)
+  * [Git](https://git-scm.com/)
+  * [Github](https://github.com/)
+  * [Gitpod](https://gitpod.io/)
+- **validators**
+  - The validators that have been used on the project are as followed:
+    - [HTML Validator](https://validator.w3.org/nu/) - No issues apart from jinja templating
+    - [CSS Validator](https://jigsaw.w3.org/css-validator/) - No issues
+    - [JavaScript Validator](https://jshint.com/) - No issues 
+    - [Python Validator](http://pep8online.com/) - No issues
+---
+## **Testing**
+ 
+## **Deployment**
+This project is stored in a GitHub repository and hosted on Heroku.
+### **How to deploy to Github**
+1. Click [here](") to get to the projects repository.
+
+2. Click on 'Settings' to the far right in navigation menu below your repository name.
+
+3. Scroll down to 'GitHub Pages' and select 'master branch' as the source.
+
+4. Click save.
+
+5. The link to the site hosted on GitHub Pages should appear at the top of the section.
+
+### **How to clone this repository in order to run the code locally on your machine**
+1. Click [here]() to get to the projects repository.
+
+2. Click "Clone or Download".
+
+3. Click the "copy" icon.
+
+4. Open Git Bash in your local IDE.
+
+5. Change your current working directory to where you want the cloned directory to be made.
+
+6. Type `$ git clone` and then paste the URL you copied earlier.
+
+   `git clone https://github.com/USERNAME/REPOSITORY`
+7. When you press enter your local clone will be ready.
+### **How to clone this repository in order to run the code locally on your machine**
+
+1. Created a new application using the Heroku dashboard.
+
+2. Go to settings tab, click on 'reveal config vars' and add config vars such as IP (0.0.0.0), PORT (5000), MongoDB Name, MongoDB URI (URL with DB name and password).
+
+3. Install Heroku via the console using 'npm install -g Heroku'.
+
+4. Log into Heroku via the console using 'heroku login' and follow the on screen instructions to log in.
+
+5. Create a requirements.txt via the console using 'pip3 freeze > requirements.txt'.
+
+6. Create a Procfile via the console using 'echo web: python app.py > Procfile'.
+
+7. Connect GitHub to Heroku via the console using 'heroku git:remote a creative-hub'
+
+8. Commit all files in your project via the console using 'git add .' and 'git commit -m "Message"'.
+
+9. Deploy your project to Heroku via the consol using 'git push heroku master'.
+
+### **Running the application locally using Gitpod**
+
+1. Clone the repository as outlined above and upload it to GitPod.
+
+2. Install the necessary libraries specified in the requirements.txt.
+
+3. Set your environment variables by creating and adding them into a env.py file.
+
+4. Create a .gitignore file in the root directory and add the env.py file to avoid it being pushed to GitHub.
+
+5. Import the env.py file into the app.py file.
+
+6. Run the application.
+
+## **Credits**
+- **Content and Media**
+  The content and images used in this site were obtained from links below:
+  Images | Content
+ 
+- **Resources**
+
+  The resources used to create this project:
+
+  - [Handeling Applications Errors -- Flask Documentation](https://flask.palletsprojects.com/en/master/errorhandling/#error-handlers)
+  - [(Totorial) Docstring in Python](https://www.datacamp.com/community/tutorials/docstrings-python)
+  - [quick start -- Flask Documentation](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+  - [Adding a favicon -- Flask documentations](https://flask.palletsprojects.com/en/1.1.x/patterns/favicon/)
+  - [Stack Overflow](https://stackoverflow.com/)
+### **Acknowledgements**
+
+ 
+
+**This project is purely educational, please contact me if there are any issues with Copyright.**
