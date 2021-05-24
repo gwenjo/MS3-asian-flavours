@@ -16,7 +16,12 @@ body {
     color: #880e4f;
 }
 
+
+/* Navbar */
+
 nav .brand-logo {
+    text-transform: uppercase;
+    letter-spacing: 2px;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: absolute;
@@ -25,6 +30,11 @@ nav .brand-logo {
     font-size: 2.1rem;
     padding: 0;
     margin-left: 20px;
+}
+
+.nav-wrapper {
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .home-image {
@@ -45,3 +55,4 @@ nav .brand-logo {
 
 .home-image h1 { 
     color: #880e4f;
+}
