@@ -1,52 +1,93 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h3 class="pink-text text-darken-4 center-align">Add Recipe</h3>
+    <div class="container">
 
-    <div class="row card-panel grey lighten-5">
-        <form class="col s12" method="POST" action="">
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-pencil-alt prefix pink-text text-darken-4"></i>
-                    <input id="recipe_name" name="recipe_name" minlength="5" maxlength="50"
-                        type="text" class="validate" required>
-                    <label for="recipe_name">Recipe Name</label>
+        <!-- Page Header -->
+        <h4 class="center-align page-header">Add Recipe</h4>
+
+        <!-- Card panel containing form -->
+        <div class="row card-panel grey lighten-5">
+            <!-- Form -->
+            <form class="col s12" method="POST" action="{{ url_for('add_recipe') }}">
+                <div class="row">
+                    <!-- Recipe name input -->
+                    <div class="input-field col s12">
+                        <input id="recipe_name" name="recipe_name" minlength="1" maxlength="40" 
+                            type="text" class="validate" required>
+                        <label for="recipe_name">Recipe Name</label>
+                        <span class="register-help">40 characters max</span>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-align-left prefix pink-text text-darken-4"></i>
-                    <textarea id="recipe_steps" name="recipe_steps" minlength="5"
-                        maxlength="200" class="materialize-textarea validate" required></textarea>
-                    <label for="recipe_steps">Recipe Steps</label>
+                <!-- Ingedients input -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="recipe_ingredients" name="recipe_ingredients" minlength="3"
+                            class="materialize-textarea validate" required></textarea>
+                        <label for="recipe_ingredients">Ingredients</label>
+                        <span class="register-help">Enter each ingredient on a new line</span>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-align-left prefix pink-text text-darken-4"></i>
-                    <textarea id="recipe_image" name="recipe_image" minlength="5"
-                        maxlength="200" class="materialize-textarea validate" required></textarea>
-                    <label for="recipe_image">Recipe Image</label>
+                <!-- Instruction input -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="recipe_instructions" name="recipe_instructions" minlength="3"
+                            class="materialize-textarea validate" required></textarea>
+                        <label for="recipe_instructions">Instructions</label>
+                        <span class="register-help">Enter each step or instruction on a new line</span>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-align-left prefix pink-text text-darken-4"></i>
-                    <textarea id="recipe_ingredients" name="recipe_ingredients" minlength="5"
-                        maxlength="200" class="materialize-textarea validate" required></textarea>
-                    <label for="recipe_ingredients">Recipe Ingredients</label>
+                <!-- Number served input -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="fas fa-user-friends prefix teal-text"></i>
+                        <input id="recipe_serves" name="recipe_serves" minlength="1" maxlength="2" type="text" class="validate"
+                            required>
+                        <label for="recipe_serves">Serves</label>
+                        <span class="register-help">Enter the number of people the recipe serves, please enter the NUMBER ONLY (e.g. for 2 people just enter "2")</span>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-calendar-alt prefix pink-text text-darken-4"></i>
-                    <input id="recipe_added" name="recipe_added" type="text" class="datepicker validate" required>
-                    <label for="recipe_added">Recipe Added</label>
+                <!-- Duration time input -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="far fa-clock prefix teal-text"></i>
+                        <input id="recipe_time" name="recipe_time" minlength="1" maxlength="2" type="text" class="validate"
+                            required>
+                        <label for="recipe_time">Duration</label>
+                        <span class="register-help">Enter the number of minutes needed to make the recipe, please enter the NUMBER ONLY(e.g. for 205 mins just enter "25")</span>
+                    </div>
                 </div>
-            </div>
-            
-	
-        </form>
+                <!-- Image input -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="recipe_image" name="recipe_image" minlength="3" maxlength="5000" 
+                            type="text" class="validate" required>
+                        <label for="recipe_image">Image URL</label>
+                        <span class="register-help">Enter the URL for your recipe image</span>
+                    </div>
+                </div>
+                <!-- Spicy checkbox input -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <div class="switch">
+                            <i class="fas fa-pepper-hot prefix teal-text"></i>
+                            <label for="recipe_spicy">
+                                <input type="checkbox" id="recipe_spicy" name="recipe_spicy">
+                                <span class="lever"></span>
+                                Spicy?
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add recipe button -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <button type="submit" class="btn-large teal lighten-1 text-shadow">
+                            Add Recipe <i class="fas fa-plus-square right"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-
 {% endblock %}
