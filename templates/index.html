@@ -15,23 +15,24 @@
     <!-- Homepage info text section -->
     <div class="container home-info">
         <div class="row">
-            <!-- Introductory text section: about site -->
+            <!-- Introduction section: about site -->
             <div class="col s12">
-                <h5 class="center-align page-header">Recipes</h5>
+                <h5 class="center-align page-header">Introduction</h5>
                 <div class="divider"></div>
-                <p class="center-align home-text">Here at Asian flavor you can try a new dish and share it with others. This way you and so many others can get to know dishes. Don't wait any longer and register! 
+                <p class="center-align home-text">Welcome to Asian flavor. <br />Here at you can try and add new dish and share it with others. This way you and so many others can get to know dishes. Don't wait any longer and register! 
                 </p>
-                <!-- Button link to recipes.html -->
+
+                <!-- link to recipes.html -->
                 <div class="center-align">
                     <a href="{{ url_for('get_recipes') }}" class="btn-small pink darken-3">Recipes</a>
                 </div>
             </div>
             
             <div class="col s12">
-                <h5 class="center-align page-header">Registered?</h5>
+                <h6 class="center-align page-header">No Account yet? Register here!</h6>
                 <div class="divider"></div>
                 <p class="center-align home-text"></p>
-                <!-- Button link to register.html -->
+                <!-- link to register.html -->
                 <div class="center-align">
                     <a href="{{ url_for('register') }}" class="btn-small pink darken-3">Register</a>
                 </div>
