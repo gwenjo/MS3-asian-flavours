@@ -192,7 +192,7 @@ To properly explain the deployment to Heroku progress. I’ll give a detailed ex
 `echo web: python app.py > Procfile`.
 6. Go to [Heroku]( https://id.heroku.com/login) and login, on your dashboard on the right, click ‘New’ than ‘Create new app’:
 
-    <img src="readme-documents/new-app.jpg" width="50%" height="50%">
+    <img src="readme-documents/new-appng" width="50%" height="50%">
     
 Create an app name
 Choose region closest to you:
@@ -204,14 +204,14 @@ Then click ‘Create app’:
 Deploy
 Deployment method and choose GitHub.
 
-<img src="readme-documents/app-name.jpg" width="50%" height="50%">
+<img src="readme-documents/app-name.png" width="50%" height="50%">
     
 Search for a repository to connect to
 Add your repository name,
 Click the `Search` button,
 If the repository is found, click `Connect` to connect to this app:
 
-<img src="readme-documents/deployment-method.jpg" width="50%" height="50%">
+<img src="readme-documents/deployment-method.png" width="50%" height="50%">
 
 4.  Now go to `Settings`. Click `Reveal Config Vars`.
 
@@ -222,7 +222,7 @@ Here you can fill in the variables from the `env.py` file to securely tell Herok
      - MONGO_URI
      - SECRET_KEY
 
-<img src="readme-documents/reveal-config-vars.jpg" width="50%" height="50%">
+<img src="readme-documents/reveal-config-vars.png" width="50%" height="50%">
 
 5.  After adding the variables push requirements.txt and Profile to the repository
 `$ git add requirements.txt`
@@ -235,12 +235,12 @@ Here you can fill in the variables from the `env.py` file to securely tell Herok
 
 6.  Go back to the Heroku page, and press ‘Enable Automatic Deployment’ and then click ‘Deploy Branch’.
     
-<img src="readme-documents/deploy-branch.jpg" width="50%" height="50%">
+<img src="readme-documents/deploy-branch.png" width="50%" height="50%">
 
 7.  When Heroku is finished building you will see Your app was successfully deployed.
 Click on ‘View’ to launch the app.
     
-<img src="readme-documents/view-deploy.jpg" width="50%" height="50%">
+<img src="readme-documents/view-deploy.png" width="50%" height="50%">
  
 
 ## **Credits**
