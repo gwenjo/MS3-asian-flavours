@@ -7,7 +7,7 @@ This app is the easiest way to find any recipe that you like, and start cooking 
 
 Sign in, get inspired, contribute, cook and enjoy!
 
-To view the live version of the site, please click [here]()
+[live site Asian Flavour](https://)
 
 ![Asian Flavour]()
 ## **Contents** ##
@@ -64,7 +64,6 @@ for this website flask was chosen to build the backend.
 - **Typography**
 - I used [Google Fonts]() for the font style of my project:
 
-
 - **Icons**
   - I used [Favicon]() to make a unic brand for my website.
   - I used [FontAwesome]() for my forms and buttons.
@@ -78,14 +77,33 @@ For this website I used different shades of pink. There are also colors of gray.
 
 ---
 ## **Wireframes**
-[Balsamiq Wireframes](https://balsamiq.com/wireframes/) was used to create all wireframes for the project.
+For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
+Links to the wireframes can be found here:
 
+Desktop Wireframes <br>
+<img src="readme-documents/" width="60%" height="60%">
+
+Desktop Wireframe, for bigger image [Click here](readme-documents/)
+
+Tablet Wireframe <br>
+<img src="readme-documents/" width="60%" height="60%">
+
+Tablet Wireframe, for bigger image [Click here](readme-documents/)
+
+Mobile Wireframe <br>
+<img src="readme-documents/" width="60%" height="60%">
+
+Mobile Wireframe, for bigger image [Click here](readme-documents/)
+
+note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
  
 ---
 
 ## **Features**
 
 - **Features Left to Implement**
+email adres invoeren voor nieuwsbrief
+comment achterlaten voor account members only
 
 ---
 ## **Technologies**
@@ -138,67 +156,92 @@ For this website I used different shades of pink. There are also colors of gray.
 ---
 ## **Testing**
  
+For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project.
+
+
 ## **Deployment**
-This project is stored in a GitHub repository and hosted on Heroku.
-### **How to deploy to Github**
-1. Click [here](") to get to the projects repository.
 
-2. Click on 'Settings' to the far right in navigation menu below your repository name.
+Github
 
-3. Scroll down to 'GitHub Pages' and select 'master branch' as the source.
+How to clone code from GitHub:
 
-4. Click save.
+1.  Go to [Github repository](https://github.com/gwenjo/asian-flavours), navigate to the main page and click Code:
+2.  To Clone the repository using HTTPS, under "Clone" click HTTPS.
+3.  Open Git Bash in your local IDE.
+4.  Change your current working directory to where you want the cloned directory to be made.
+5.  Type `$ git clone`, and paste the URL you copied earlier:
+    `$ git clone https://github.com/YOUR-USERNAME/asian-flavours.git`
+6. Press enter your local clone will be ready.
 
-5. The link to the site hosted on GitHub Pages should appear at the top of the section.
+### **How to clone this repository to your device**
+1.  Create an `env.py` file to store variables, also create .gitignore file to keep these from being displayed:
+     - Import os 
+     - os.environ.setdefault("IP", "value") 
+     - os.environ.setdefault("PORT", "value") 
+     - os.environ.setdefault("SECRET_KEY", " value") 
+     - os.environ.setdefault("MONGO_URI", " value") 
+     - os.environ.setdefault("MONGO_DBNAME", "value")
 
-### **How to clone this repository in order to run the code locally on your machine**
-1. Click [here]() to get to the projects repository.
+To properly explain the deployment to Heroku progress. I’ll give a detailed explanation below:
 
-2. Click "Clone or Download".
+2.  Create a new application using the Heroku dashboard.
+3. With `npm install -g Heroku` you can install Heroku.
+4. Create a requirements.txt in the console using 
+-	`pip3 freeze > requirements.txt`.
+5. Create a Procfile via the console using 
+`echo web: python app.py > Procfile`.
+6. Go to [Heroku]( https://id.heroku.com/login) and login, on your dashboard on the right, click ‘New’ than ‘Create new app’:
 
-3. Click the "copy" icon.
+    <img src="readme-documents/new-app.jpg" width="50%" height="50%">
+    
+Create an app name
+Choose region closest to you:
+Then click ‘Create app’:
+    
+    <img src="readme-documents/app-name.jpg" width="50%" height="50%">
 
-4. Open Git Bash in your local IDE.
+3.  Than select:
+Deploy
+Deployment method and choose GitHub.
 
-5. Change your current working directory to where you want the cloned directory to be made.
+<img src="readme-documents/app-name.jpg" width="50%" height="50%">
+    
+Search for a repository to connect to
+Add your repository name,
+Click the `Search` button,
+If the repository is found, click `Connect` to connect to this app:
 
-6. Type `$ git clone` and then paste the URL you copied earlier.
+<img src="readme-documents/deployment-method.jpg" width="50%" height="50%">
 
-   `git clone https://github.com/USERNAME/REPOSITORY`
-7. When you press enter your local clone will be ready.
-### **How to clone this repository in order to run the code locally on your machine**
+4.  Now go to `Settings`. Click `Reveal Config Vars`.
 
-1. Created a new application using the Heroku dashboard.
+Here you can fill in the variables from the `env.py` file to securely tell Heroku which variables are required:
+     - IP
+     - PORT
+     - MONGO_DBNAME
+     - MONGO_URI
+     - SECRET_KEY
 
-2. Go to settings tab, click on 'reveal config vars' and add config vars such as IP (0.0.0.0), PORT (5000), MongoDB Name, MongoDB URI (URL with DB name and password).
+<img src="readme-documents/reveal-config-vars.jpg" width="50%" height="50%">
 
-3. Install Heroku via the console using 'npm install -g Heroku'.
+5.  After adding the variables push requirements.txt and Profile to the repository
+`$ git add requirements.txt`
+`$ git commit -m “add requirements.txt”`
 
-4. Log into Heroku via the console using 'heroku login' and follow the on screen instructions to log in.
+`$ git add Profile`
+`$ git commit -m ”Profile”`
 
-5. Create a requirements.txt via the console using 'pip3 freeze > requirements.txt'.
+`$ git push`
 
-6. Create a Procfile via the console using 'echo web: python app.py > Procfile'.
+6.  Go back to the Heroku page, and press ‘Enable Automatic Deployment’ and then click ‘Deploy Branch’.
+    
+<img src="readme-documents/deploy-branch.jpg" width="50%" height="50%">
 
-7. Connect GitHub to Heroku via the console using 'heroku git:remote a creative-hub'
-
-8. Commit all files in your project via the console using 'git add .' and 'git commit -m "Message"'.
-
-9. Deploy your project to Heroku via the consol using 'git push heroku master'.
-
-### **Running the application locally using Gitpod**
-
-1. Clone the repository as outlined above and upload it to GitPod.
-
-2. Install the necessary libraries specified in the requirements.txt.
-
-3. Set your environment variables by creating and adding them into a env.py file.
-
-4. Create a .gitignore file in the root directory and add the env.py file to avoid it being pushed to GitHub.
-
-5. Import the env.py file into the app.py file.
-
-6. Run the application.
+7.  When Heroku is finished building you will see Your app was successfully deployed.
+Click on ‘View’ to launch the app.
+    
+<img src="readme-documents/view-deploy.jpg" width="50%" height="50%">
+ 
 
 ## **Credits**
 - **Content and Media**
