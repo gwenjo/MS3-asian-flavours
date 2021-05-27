@@ -33,7 +33,7 @@
         </div>
     
         <!-- Users recipe cards display -->
-        <div class="section-user-recipes">
+        <div class="section-user-recipes card-panel">
             <div class="row">
                 {% for recipe in recipes if session.user|lower == recipe.recipe_addedby|lower %}  <!-- Note: if recipes added by user, shown below -->
                 <div class="col s12 m6 l4 recipe-container">
