@@ -6,33 +6,29 @@
     <div class="home-image">
         <!-- Text on hero image -->
         <div>
-            <h1 class="center-align">Asian Flavours</h1>
+            <h1 class="center-align-index grey-text darken-4">Asian Flavours</h1>
             <div class="divider"></div>
-            <p class="center-align">Come and share your favorite asian meals!</p>
+            <p class="center-align"></p>
         </div>
     </div>
 
-    <!-- Homepage info text section -->
+    <!-- Introduction section -->
     <div class="container home-info">
         <div class="row">
-            <!-- Introduction section: about site -->
             <div class="col s12">
                 <h5 class="center-align page-header">Introduction</h5>
                 <div class="divider"></div>
-                <p class="center-align home-text">Welcome to Asian flavor. <br />Here at you can try and add new dish and share it with others. This way you and so many others can get to know dishes. Don't wait any longer and register! 
+                <p class="center-align home-text">Welcome to Asian flavor. 
+                    <br />On this website you can add and try out new Asian dishes and share it with others. <br />
+                    Come and share your favorite asian meals! <br />
+                    Don't wait any longer and register! 
                 </p>
-
-                <!-- link to recipes.html -->
-                <div class="center-align">
-                    <a href="{{ url_for('get_recipes') }}" class="btn-small pink darken-3">Recipes</a>
-                </div>
+                <div class="divider"></div>
             </div>
             
             <div class="col s12">
                 <h6 class="center-align page-header">No Account yet? Register here!</h6>
-                <div class="divider"></div>
-                <p class="center-align home-text"></p>
-                <!-- link to register.html -->
+
                 <div class="center-align">
                     <a href="{{ url_for('register') }}" class="btn-small pink darken-3">Register</a>
                 </div>

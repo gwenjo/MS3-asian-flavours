@@ -45,7 +45,8 @@ nav .brand-logo {
     background: url(/static/images/asian-dish.jpg); /* Image comes from www.pexels.com */
     height: 50vh;
     width: 100%; 
-    opacity: 0.7;
+    opacity: 0.9;
+    font-weight: bold;
     margin-top: 0.5px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -58,6 +59,10 @@ nav .brand-logo {
 }
 
 .home-image h1 { 
+    color: #880e4f;
+}
+
+.center-align-index {
     color: #880e4f;
 }
 
@@ -97,6 +102,10 @@ nav .brand-logo {
 
 .section-user-recipes {
     padding-bottom: 18rem;
+}
+
+.btn-small a:hover{
+  color: yellow;
 }
 
 /* --- RECIPE --- */
