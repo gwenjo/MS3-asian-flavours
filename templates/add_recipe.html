@@ -3,10 +3,9 @@
 
     <div class="container">
 
-        <!-- Page Header -->
         <h4 class="center-align page-header">Add Recipe</h4>
 
-        <!-- Card panel containing form -->
+        <!-- Card panel -->
         <div class="row card-panel grey lighten-5">
             <!-- Form -->
             <form class="col s12" method="POST" action="{{ url_for('add_recipe') }}">
@@ -17,7 +16,17 @@
                         <input id="recipe_name" name="recipe_name" minlength="1" maxlength="40" 
                             type="text" class="validate" required>
                         <label for="recipe_name">Recipe Name</label>
-                        <span class="register-help">40 characters max</span>
+                        <span class="register-remarks">40 characters max</span>
+                    </div>
+                </div>
+                <!-- Country input -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="fas fa-globe-asia prefix pink-text text-darken-4"></i>
+                        <input id="recipe_country" name="recipe_country" minlength="1" maxlength="30" type="text" class="validate"
+                            required>
+                        <label for="recipe_country">Country</label>
+                        <span class="register-remarks">Place the name of the country where the dish comes from </span>
                     </div>
                 </div>
                 <!-- Ingedients input -->
@@ -27,7 +36,7 @@
                         <textarea id="recipe_ingredients" name="recipe_ingredients" minlength="3"
                             class="materialize-textarea validate" required></textarea>
                         <label for="recipe_ingredients">Ingredients</label>
-                        <span class="register-help">Enter each ingredient on a new line</span>
+                        <span class="register-remarks">Enter each ingredient on a new line</span>
                     </div>
                 </div>
                 <!-- Instruction input -->
@@ -37,27 +46,28 @@
                         <textarea id="recipe_instructions" name="recipe_instructions" minlength="3"
                             class="materialize-textarea validate" required></textarea>
                         <label for="recipe_instructions">Instructions</label>
-                        <span class="register-help">Enter each step or instruction on a new line</span>
+                        <span class="register-remarks">Enter each step or instruction on a new line</span>
                     </div>
                 </div>
-                <!-- Number served input -->
+                <!-- Servings input -->
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="fas fa-user-friends prefix pink-text text-darken-4"></i>
-                        <input id="recipe_serves" name="recipe_serves" minlength="1" maxlength="2" type="text" class="validate"
+                        <input id="recipe_servings" name="recipe_servings" minlength="1" maxlength="2" type="text" class="validate"
                             required>
-                        <label for="recipe_serves">Serves</label>
-                        <span class="register-help">Enter the number of people the recipe serves, please enter the NUMBER ONLY (e.g. for 2 people just enter "2")</span>
+                        <label for="recipe_servings">Servings</label>
+                        <span class="register-remarks">Enter the number of people the recipe servings, please enter the NUMBER ONLY (e.g. for 2 people just enter "2")</span>
                     </div>
                 </div>
+               
                 <!-- Duration time input -->
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="fas fa-clock prefix pink-text text-darken-4"></i>
-                        <input id="recipe_time" name="recipe_time" minlength="1" maxlength="2" type="text" class="validate"
+                        <input id="recipe_time" name="recipe_time" minlength="1" maxlength="3" type="text" class="validate"
                             required>
                         <label for="recipe_time">Duration</label>
-                        <span class="register-help">Enter the number of minutes needed to make the recipe, please enter the NUMBER ONLY(e.g. for 205 mins just enter "25")</span>
+                        <span class="register-remarks">Enter the number of minutes needed to make the recipe, please enter the NUMBER ONLY(e.g. for 25 mins just enter "25")</span>
                     </div>
                 </div>
                 <!-- Image input -->
@@ -67,7 +77,7 @@
                         <input id="recipe_image" name="recipe_image" minlength="3" maxlength="5000" 
                             type="text" class="validate" required>
                         <label for="recipe_image">Image URL</label>
-                        <span class="register-help">Enter the URL for your recipe image</span>
+                        <span class="register-remarks">Enter the URL for your recipe image</span>
                     </div>
                 </div>
                 <!-- Spicy checkbox input -->

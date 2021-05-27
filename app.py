@@ -114,18 +114,19 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_recipe", methods=["GET", "POST"])
+@app.route("/add_recipe", methods=["GET", "POST"])  # ADD RECIPE
 def add_recipe():
     if request.method == "POST":
         recipe_spicy = "on" if request.form.get(
             "recipe_spicy") else "off"
         recipe = {
             "recipe_name": request.form.get("recipe_name"),
-            "recipe_image": request.form.get("recipe_image"),
             "recipe_ingredients": request.form.get("recipe_ingredients"),
+            "recipe_country": request.form.get("recipe_country"),
             "recipe_instructions": request.form.get("recipe_instructions"),
-            "recipe_serves": request.form.get("recipe_serves"),
+            "recipe_servings": request.form.get("recipe_servings"),
             "recipe_time": request.form.get("recipe_time"),
+            "recipe_image": request.form.get("recipe_image"),
             "recipe_spicy": recipe_spicy,
             "recipe_addedby": session["user"]
         }
@@ -143,16 +144,17 @@ def edit_recipe(recipe_id):
             "recipe_spicy") else "off"
         submit = {
             "recipe_name": request.form.get("recipe_name"),
-            "recipe_image": request.form.get("recipe_image"),
             "recipe_ingredients": request.form.get("recipe_ingredients"),
+            "recipe_country": request.form.get("recipe_country"),
             "recipe_instructions": request.form.get("recipe_instructions"),
-            "recipe_serves": request.form.get("recipe_serves"),
+            "recipe_servings": request.form.get("recipe_servings"),
             "recipe_time": request.form.get("recipe_time"),
+            "recipe_image": request.form.get("recipe_image"),
             "recipe_spicy": recipe_spicy,
             "recipe_addedby": session["user"]
         }
         mongo.db.recipes.update({"_id": ObjectId(recipe_id)}, submit)
-        flash("Recipe updated!")
+        flash("Recipe Succesfully updated!")
 
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
 
