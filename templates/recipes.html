@@ -3,18 +3,13 @@
 
 <div class="container">
 
-    <!-- Page Header -->
     <h4 class="page-header center-align">Recipes</h4>
-
-        <!-- Search Recipes -->
         <form action="{{ url_for('search') }}" method="POST" class="col s12">
-            <div class="row center-align">
-                <!-- Search Text Input -->
+            <div class="row center-align card-panel grey lighten-5">
                 <div class="input-field col s12">
                     <input type="text" name="query" id="query" minlength="3" class="validate" required>
                     <label for="query">Search Recipes</label>
                 </div>
-                <!-- Search & Reset Buttons -->
                 <div class="col s12">
                     <button type="submit" class="pink darken-4 btn text-shadow">
                         <i class="fas fa-search"></i>
@@ -24,7 +19,7 @@
             </div>
         </form>
 
-    <!-- Recipe Cards Display -->
+    <!-- Recipe layout -->
     {% if recipes|length > 0 %} <!-- Note: if recipes search results > 0, display cards, otherwise display 'No results found!' -->
     <div class="row">
         {% for recipe in recipes %}
@@ -45,6 +40,6 @@
         </div>
     </div>
     {% endif %}
-    </div>
+</div>
 
 {% endblock %}
