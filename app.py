@@ -109,7 +109,7 @@ def profile(username):
 @app.route("/logout") 
 def logout():
     # remove user from session cookie
-    flash("You have been logged out")
+    flash("You have been signed out")
     session.pop("user")
     return redirect(url_for("login"))
 
@@ -131,7 +131,7 @@ def add_recipe():
             "recipe_addedby": session["user"]
         }
         mongo.db.recipes.insert_one(recipe)
-        flash("Recipe added!")
+        flash("Recipe succesfully added!")
         return redirect(url_for("get_recipes"))
 
     return render_template("add_recipe.html")
@@ -154,7 +154,7 @@ def edit_recipe(recipe_id):
             "recipe_addedby": session["user"]
         }
         mongo.db.recipes.update({"_id": ObjectId(recipe_id)}, submit)
-        flash("Recipe Succesfully updated!")
+        flash("Recipe succesfully updated!")
 
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
 
