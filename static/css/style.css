@@ -16,7 +16,6 @@ body {
     color: #880e4f;
 }
 
-
 /* Navbar */
 nav .brand-logo {
     margin-left: 20px;
@@ -141,4 +140,9 @@ nav .brand-logo {
 
 .recipecard-title {
     font-size: 12px;   
+}
+
+.no-results {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }

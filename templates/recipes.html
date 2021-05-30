@@ -2,7 +2,7 @@
 {% block content %}
 
 <div class="container">
-
+    <!-- Recipe Search Section -->
     <h4 class="page-header center-align">Recipes</h4>
         <form action="{{ url_for('search') }}" method="POST" class="col s12">
             <div class="row center-align card-panel grey lighten-5">
@@ -19,7 +19,7 @@
             </div>
         </form>
 
-    <!-- Recipe layout -->
+    <!-- Recipe Layout Section-->
     {% if recipes|length > 0 %} <!-- Note: if recipes search results > 0, display cards, otherwise display 'No results found!' -->
     <div class="row">
         {% for recipe in recipes %}
@@ -33,13 +33,14 @@
         </div>
         {% endfor %}
     </div>
+
     {% else %}
-    <div class="section-noresults">
+    <div class="no-results">
         <div class="row">
             <h4 class="page-header center-align">No results found!</h4>
         </div>
     </div>
     {% endif %}
-</div>
+    </div>
 
 {% endblock %}
