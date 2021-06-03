@@ -1,11 +1,14 @@
 # **Milestone Project 3**
-**Practical Python and Data-Centric Development Milestone Project.**
+**THIS PROJECT IS FOR EDUCATIONAL USE ONLY**
 
 **Asian Flavours**
 
-This app is the easiest way to find any recipe that you like, and start cooking right away. You can also add your own recipes just as easily. To make the management of the recipes effortless; the admin can remove any spam from the recipes,if needed.
+Welcome to Asian flavor. 
+The purpose of this website is that people can share different (preferably Asian) dishes with each other. You can do this by registering yourself. If you are registered you can sign in and sign out, keep track of recipes, change and delete your own recipes.
 
-Sign in, get inspired, contribute, cook and enjoy!
+Come and share your favorite asian meals! <br />
+
+Don't wait any longer and Sign Up! !
 
 [live site Asian Flavour](https://)
 
@@ -27,20 +30,24 @@ Sign in, get inspired, contribute, cook and enjoy!
 ## **UX (User Experience)** ##
 ### **Project Summary** ###
 
-The goal of this full-stack MongoDB-based Flask project is to create a recipe database that allows users (CRUD) to add, read, update, and delete recipes.
-Asian Flavors gives access to all recipes in the database for all registered and non-registered users. Registered users can add new recipes, edit and delete their own recipes.
+The goal of this project is (CRUD) to create a database of recipes that allows users to add, read, update and delete recipes.
+Asian Flavors gives access to all recipes in the database for all registered and unregistered users. Registered users can add new recipes, edit and delete their own recipes.
 
 ### ** UX **
 ** First time user **
 
--	As a first time user, I want an easy navigation website so that add and see     my (new) recipes.
+-	As a first user, I want to be able to register easily.
+-   As a first time user, I want an easy navigation website so that I can add 
+    and see my (new) recipes.
 -	As a first user, I want a clear looking website so that the recipes are         easy to follow.
--	As a first user, I want to be able to register.
 
 ** Returning Users **
 
--	As a returning user I want to be able to edit my added recipes.
--   As a returning user, I want to be able to log in and out easily.
+-	As a returning user, I want to be able to sign in and out easily.
+-   As a returning user, I want to be able to edit and/or delete my added 
+    recipes.
+-   As a returning user, I would like to see all added recipes without logging 
+    in.
 
 ** Site owner’s Goal: **
 
@@ -49,30 +56,47 @@ Asian Flavors gives access to all recipes in the database for all registered and
 
 ### **Design choices**
 
-The goal of the design was to create a website that is user-friendly, has a simple appearance and to provide clear information about (new) recipes.
+The chosen design for this website is clear and user-friendly.
+
+In the navigation and throughout the website there are several buttons that lead you back to the homepage.
 
 **Framework**
 
-* Front-end framework, [Materialize](https://materializecss.com/), 
-Materialize has been used to for this website. It was used for creating functions such as navigation bar, maps and forms.
+* Front-end framework, [Materialize](https://materializecss.com/)
+was used for this website. It was used to create features such as navigation bar, forms and buttons.
 
-* [JQuery](https://jquery.com/) was used for initializing some Materialize elements.
+* [JQuery](https://jquery.com/) was used to initialize some Materialize elements.
 
 * Micro framework [Flask](https://flask.palletsprojects.com/en/1.1.x/), 
 for this website flask was chosen to build the backend.
 
-- **Typography**
-- I used [Google Fonts]() for the font style of my project:
+**Typography**
+- I used [Google Fonts](https://fonts.google.com/specimen/Roboto) for the font style of this project. The font used for this website is Roboto with a backup font of Sans-serif. It is a simple and easy to read font. The font is also easy to read on smaller devices.
 
-- **Icons**
-  - I used [Favicon]() to make a unic brand for my website.
-  - I used [FontAwesome]() for my forms and buttons.
+
+**Icons**
+  - An existing favicon has been chosen for this website[Favicon](https://favicon.io/). 
+  - FontAwesome](https://fontawesome.com/) was used for my forms and buttons, to make it more appealing.
 
 - **Colour Scheme**
 
-For this website I used different shades of pink. There are also colors of gray.
+For this website I used different shades of pink.
 
-- **Main colour palette**
+Green was used for the edit button
+
+Red has been used for the delete button.
+
+There are also shades of gray.
+
+
+**Main colour palette**
+Kleuren nog uitwerken!!!
+
+page-header 
+    color: #880e4f
+
+home-image h1
+    color: #fff
 
 
 ---
@@ -85,7 +109,6 @@ Desktop Wireframes <br>
 
 Desktop Wireframe, for bigger image [Click here](readme-documents/)
 
-Tablet Wireframe <br>
 <img src="readme-documents/" width="60%" height="60%">
 
 Tablet Wireframe, for bigger image [Click here](readme-documents/)
@@ -95,19 +118,27 @@ Mobile Wireframe <br>
 
 Mobile Wireframe, for bigger image [Click here](readme-documents/)
 
-note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
+Note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
  
 ---
 
 ## **Features**
 
-- **Features Left to Implement**
-email adres invoeren voor nieuwsbrief
-comment achterlaten voor account members only
+**Features Left to Implement**
+-   Entering an email address for newsletter.
+-   Leave a comment underneath a recipe (for account members only).
+-   Rate the recipe.
 
 ---
 ## **Technologies**
-- **Front-End**
+
+**Deployment**
+  * [Heroku](https://dashboard.heroku.com/)
+  * [Git](https://git-scm.com/)
+  * [Github](https://github.com/)
+  * [Gitpod](https://gitpod.io/)
+
+**Front-End**
 
   - [HTML5](https://en.wikipedia.org/wiki/HTML)
     - To give the page its structure and presenting static data.
@@ -120,9 +151,9 @@ comment achterlaten voor account members only
     - JQuery has been used to give the site its functionality as well as making DOM manipulation simpler.
 
 - **Back-end**
-  - [MongoDB](https://en.wikipedia.org/wiki/MongoDB) 
+  - [MongoDB](https://www.mongodb.com/) 
     - As the data entered by users can always be different from one to the next, the project uses MongoDB to store its data as MongoDB is a Document Based Database.
-  - [Flask](https://en.wikipedia.org/wiki/Flask_(web_framework))
+  - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
     - Flask is a framework that allows developers to easily present data in an orderly fashion. All data entered by a user, such as the Recipe Name, is presented to users with a few lines of code embedded into the HTML.
       - Modules from Flask that have been included are:
       - Flask
@@ -142,12 +173,8 @@ comment achterlaten voor account members only
       - datetime
   - [Python](https://www.python.org/)
     - Python is working very closely with Flask to manipulate data and HTML across multiple pages within the app.
-- **Deployment**
-  * [Heroku](https://dashboard.heroku.com/)
-  * [Git](https://git-scm.com/)
-  * [Github](https://github.com/)
-  * [Gitpod](https://gitpod.io/)
-- **validators**
+
+- **Validators**
   - The validators that have been used on the project are as followed:
     - [HTML Validator](https://validator.w3.org/nu/) - No issues apart from jinja templating
     - [CSS Validator](https://jigsaw.w3.org/css-validator/) - No issues
@@ -156,7 +183,7 @@ comment achterlaten voor account members only
 ---
 ## **Testing**
  
-For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project.
+For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website
 
 
 ## **Deployment**
@@ -167,6 +194,9 @@ How to clone code from GitHub:
 
 1.  Go to [Github repository](https://github.com/gwenjo/asian-flavours), navigate to the main page and click Code:
 2.  To Clone the repository using HTTPS, under "Clone" click HTTPS.
+
+<img src="readme-documents/clone-github.png" width="50%" height="50%">
+
 3.  Open Git Bash in your local IDE.
 4.  Change your current working directory to where you want the cloned directory to be made.
 5.  Type `$ git clone`, and paste the URL you copied earlier:
@@ -192,24 +222,21 @@ To properly explain the deployment to Heroku progress. I’ll give a detailed ex
 `echo web: python app.py > Procfile`.
 6. Go to [Heroku]( https://id.heroku.com/login) and login, on your dashboard on the right, click ‘New’ than ‘Create new app’:
 
-    <img src="readme-documents/new-appng" width="50%" height="50%">
+<img src="readme-documents/new-app.png" width="50%" height="50%">
     
 Create an app name
 Choose region closest to you:
 Then click ‘Create app’:
-    
-    <img src="readme-documents/app-name.jpg" width="50%" height="50%">
 
+<img src="readme-documents/heroku-app-name.png" width="50%" height="50%">
+    
 3.  Than select:
-Deploy
-Deployment method and choose GitHub.
-
-<img src="readme-documents/app-name.png" width="50%" height="50%">
-    
-Search for a repository to connect to
-Add your repository name,
-Click the `Search` button,
-If the repository is found, click `Connect` to connect to this app:
+-   Deploy
+-   Deployment method and choose GitHub.
+-   Search for a repository to connect to
+-   Add your repository name,
+-   Click the `Search` button,
+-   If the repository is found, click `Connect` to connect to this app:
 
 <img src="readme-documents/deployment-method.png" width="50%" height="50%">
 
@@ -252,13 +279,8 @@ Click on ‘View’ to launch the app.
 
   The resources used to create this project:
 
-  - [Handeling Applications Errors -- Flask Documentation](https://flask.palletsprojects.com/en/master/errorhandling/#error-handlers)
-  - [(Totorial) Docstring in Python](https://www.datacamp.com/community/tutorials/docstrings-python)
-  - [quick start -- Flask Documentation](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
-  - [Adding a favicon -- Flask documentations](https://flask.palletsprojects.com/en/1.1.x/patterns/favicon/)
-  - [Stack Overflow](https://stackoverflow.com/)
 ### **Acknowledgements**
 
  
 
-**This project is purely educational, please contact me if there are any issues with Copyright.**
+**THIS PROJECT IS FOR EDUCATIONAL USE ONLY**
