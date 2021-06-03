@@ -3,12 +3,11 @@
 
     <div class="container">
 
-        <!-- Page Header -->
         <h4 class="center-align page-header">Edit Recipe</h4>
 
-        <!-- Card panel containing form -->
+        <!-- Card panel form -->
         <div class="row card-panel grey lighten-5">
-            <!-- Form (Note: prepopulated with existing recipe details) -->
+            <!-- Form -->
             <form class="col s12" method="POST" action="{{ url_for('edit_recipe', recipe_id=recipe._id) }}">
                 <!-- Recipe name input -->
                 <div class="row">
@@ -51,7 +50,7 @@
                         <span class="register-remarks">Place the name of the country where the dish comes from </span>
                     </div>
                 </div>
-                <!-- Number served input -->
+                <!-- Number serving input -->
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="fas fa-user-friends prefix pink-text"></i>
@@ -62,7 +61,7 @@
                     </div>
                 </div>
                 
-                <!-- Time taken input -->
+                <!-- Time needed for recipe input -->
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="far fa-clock prefix pink-text"></i>
@@ -101,7 +100,7 @@
                 <!-- Buttons -->
                 <div class="row">
                     <div class="col s12 center-align">
-                        <!-- Cancel button (Note: takes user back to recipes.html) -->
+                        <!-- Cancel button -->
                         <a href="{{ url_for('get_recipes') }}" class="btn-large pink darken-3 text-shadow">Cancel</a>
                         <!-- Edit recipe button -->
                         <button type="submit" class="btn-large pink darken-3 text-shadow">
