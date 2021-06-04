@@ -272,9 +272,18 @@ Click on ‘View’ to launch the app.
 
 ## **Credits**
 - **Content and Media**
-  The content and images used in this site were obtained from links below:
-  Images | Content
- 
+I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY. I have used different websites for different recipes.
+The content and images used in this site were obtained from links below:
+Images | Content
+
+image from Bich Tran - Pexels.com
+https://www.allrecipes.com/recipe/245343/authentic-vietnamese-spring-rolls-nem-ran-hay-cha-gio/#:
+
+https://www.onceuponachef.com/recipes/cashew-chicken.html
+
+image from Jan Ngyen - Pexels.com
+https://www.feastingathome.com/thai-chicken-noodle-soup/
+
 - **Resources**
 
   The resources used to create this project:
