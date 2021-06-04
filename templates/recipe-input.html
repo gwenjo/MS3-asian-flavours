@@ -49,15 +49,15 @@
                 <div class="col s12 m6">
                     <h5 class="center-align page-header">Ingredients:</h5>
                     <div class="divider"></div>
-                    {% for line in recipe.recipe_ingredients.splitlines() %} <!-- Note: Splits lines at each new line -->
+                    {% for line in recipe.recipe_ingredients.splitlines() %} <!-- Note: lists ingredients on display, splits lines at each new line -->
                         <p class="details">{{ line }}</p>      
                     {% endfor %}
                 </div>
-                <!-- Instructions listing -->
+                <!-- Method listing -->
                 <div class="col s12 m6">
                     <h5 class="center-align page-header">Instructions:</h5>
                     <div class="divider"></div>
-                    {% for line in recipe.recipe_instructions.splitlines() %} <!-- Note: Splits lines at each new line -->
+                    {% for line in recipe.recipe_instructions.splitlines() %} <!-- Note: lists method on display, splits lines at each new line -->
                     <p class="details">{{ line }}</p>
                     {% endfor %}
                 </div>
