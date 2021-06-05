@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Fontawsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" type="text/css"/>
 
@@ -14,30 +14,32 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
     {%block styles%}
     {% endblock %}
-    <title>Asian Flavours</title>
-
+    
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <title>Asian Flavours</title>
 </head>
 <body>
 
 <header>
-<!-- Top Navbar Section -->
+<!-- Top Navbar -->
     <div class="navbar-fixed">
         <nav class="nav-extended text-shadow pink darken-3">
             <div class="nav-wrapper">
-                <a href="{{ url_for('index') }}" class="brand-logo left">Asian Flavours</a>
-                    <a href="" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
+                <a href="{{ url_for('index') }}" class="brand-logo left">
+                    Asian Flavours</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="{{ url_for('index') }}">Home</a></li>
                         <li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
                         {% if session.user %} <!-- Note: if user logged in, display following links -->
-                        <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-                        <li><a href="{{ url_for('add_recipe') }}">Add Recipe</a></li>
-                        <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+                            <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+                            <li><a href="{{ url_for('add_recipe') }}">Add Recipe</a></li>
+                            <li><a href="{{ url_for('logout') }}">Log Out</a></li>
                         {% else %}
-                        <li><a href="{{ url_for('login') }}">Sign In</a></li>
-                        <li><a href="{{ url_for('register') }}">Sign Up</a></li>
+                            <li><a href="{{ url_for('login') }}">Sign In</a></li>
+                            <li><a href="{{ url_for('register') }}">Sign Up</a></li>
                         {% endif %}
                     </ul>
             </div>
@@ -50,12 +52,12 @@
         <li><a href="{{ url_for('index') }}">Home</a></li>
         <li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
         {% if session.user %}
-        <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-        <li><a href="{{ url_for('add_recipe') }}">Add Recipe</a></li>
-        <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+            <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+            <li><a href="{{ url_for('add_recipe') }}">Add Recipe</a></li>
+            <li><a href="{{ url_for('logout') }}">Log Out</a></li>
         {% else %}
-        <li><a href="{{ url_for('login') }}">Sign In</a></li>
-        <li><a href="{{ url_for('register') }}">Sign Up</a></li>
+            <li><a href="{{ url_for('login') }}">Sign In</a></li>
+            <li><a href="{{ url_for('register') }}">Sign Up</a></li>
         {% endif %}
     </ul>
 
@@ -65,13 +67,13 @@
         {% with messages = get_flashed_messages() %}
             {% if messages %}
                 {% for message in messages %}
-                    <h4 class="pink darken-3 white-text center-align">{{ message }}</h4>
+                        <h4 class="pink darken-3 white-text center-align">{{ message }}</h4>
                 {% endfor %}
             {% endif %}
         {% endwith %}    
     </section>
 
-<!-- Main section -->
+    <!-- Main content -->
     <main>
         {% block content %}
         {% endblock %}
