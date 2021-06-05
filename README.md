@@ -113,21 +113,32 @@ color: #880e4f pink darken-4
 ---
 ## **Wireframes**
 For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
+
 Links to the wireframes can be found here:
 
 Desktop Wireframes <br>
-<img src="readme-documents/" width="60%" height="60%">
+1.  <img src="readme-documents/desktop-home.jpg" width="60%" height="60%">
+2.  <img src="readme-documents/desktop-signup.jpg" width="60%" height="60%">
+3.  <img src="readme-documents/desktop-login.jpg" width="60%" height="60%">
+4.  <img src="readme-documents/desktop-addrecipe.jpg" width="60%" height="60%">
+5.  <img src="readme-documents/desktop-recipes.jpg" width="60%" height="60%">
 
-Desktop Wireframe, for bigger image [Click here](readme-documents/)
+Desktop Wireframe, for bigger image click here the following numbers [ (1.) ](readme-documents/desktop-home.jpg)[ (2.) ](readme-documents/desktop-signup.jpg)[ (3.) ](readme-documents/desktop-login.jpg)[ (4.) ](readme-documents/desktop-addrecipe.jpg)[ (5.) ](readme-documents/desktop-recipes.jpg)
 
-<img src="readme-documents/" width="60%" height="60%">
-
-Tablet Wireframe, for bigger image [Click here](readme-documents/)
 
 Mobile Wireframe <br>
-<img src="readme-documents/" width="60%" height="60%">
+1a. <img src="readme-documents/mobile-home.jpg" width="60%" height="60%">
 
-Mobile Wireframe, for bigger image [Click here](readme-documents/)
+2a. <img src="readme-documents/mobile-signup.jpg" width="60%" height="60%">
+
+3a. <img src="readme-documents/mobile-login.jpg" width="60%" height="60%">
+
+4a. <img src="readme-documents/mobile-addrecipe.jpg" width="60%" height="60%">
+
+5a. <img src="readme-documents/mobile-recipes.jpg" width="60%" height="60%">
+
+
+Mobile Wireframe, for bigger image [click here the following numbers [ (1a.) ](readme-documents/mobile-home.jpg)[ (2a.) ](readme-documents/mobile-signup.jpg)[ (3a.) ](readme-documents/mobile-login.jpg)[ (4a.) ](readme-documents/mobile-addrecipe.jpg)[ (5a.) ](readme-documents/mobile-recipes.jpg)
 
 Note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
  
