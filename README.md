@@ -99,8 +99,10 @@ home-image h1
     color: #fff
 
 Icons
-color: 
+#f48fb1 pink lighten-3
 
+Cancel button
+#bdbdbd grey lighten-1
 
 ---
 ## **Wireframes**
