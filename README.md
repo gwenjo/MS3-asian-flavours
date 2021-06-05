@@ -75,37 +75,40 @@ for this website flask was chosen to build the backend.
 
 
 **Icons**
-  - An existing favicon has been chosen for this website[Favicon](https://favicon.io/). 
-  - FontAwesome](https://fontawesome.com/) was used for my forms and buttons, to make it more appealing.
+-   An existing favicon has been chosen for this
+    website[Favicon](https://favicon.io/). 
+-   FontAwesome](https://fontawesome.com/) was used for my forms and buttons, 
+    to make it more appealing.
 
-- **Colour Scheme**
+**Colour Scheme**
 
-For this website I used different shades of pink.
+For this website I chose the color pink. The color comes out nicely for this Asian looking website.
 
-Green was used for the edit button
+Edit button
+color: Green darken-2
 
-Red has been used for the delete button.
+Delete button
+color: Red darken-2 
 
-There are also shades of gray.
+Card-Panel
+grey lighten-5
 
-
-**Main colour palette**
 Kleuren nog uitwerken!!!
 
 page-header 
-    color: #880e4f
+color: #880e4f
 
 home-image h1
-    color: #fff
+color: #fff
 
-Icons
-#f48fb1 pink lighten-3
+All Icons
+color: #f48fb1 pink lighten-3
 
 Cancel button
-#bdbdbd grey lighten-1
+color: #bdbdbd grey lighten-1
 
 flash messages
-#880e4f pink darken-4
+color: #880e4f pink darken-4
 
 ---
 ## **Wireframes**
