@@ -98,6 +98,9 @@ page-header
 home-image h1
     color: #fff
 
+Icons
+color: 
+
 
 ---
 ## **Wireframes**
@@ -286,7 +289,7 @@ https://www.feastingathome.com/thai-chicken-noodle-soup/
 
 - **Resources**
 
-  The resources used to create this project:
+The resources used to create this project:
 
 ### **Acknowledgements**
 
