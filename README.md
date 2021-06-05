@@ -140,6 +140,7 @@ Mobile Wireframe <br>
 
 Mobile Wireframe, for bigger image [click here the following numbers [ (1a.) ](readme-documents/mobile-home.jpg)[ (2a.) ](readme-documents/mobile-signup.jpg)[ (3a.) ](readme-documents/mobile-login.jpg)[ (4a.) ](readme-documents/mobile-addrecipe.jpg)[ (5a.) ](readme-documents/mobile-recipes.jpg)
 
+
 Note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
  
 ---
@@ -174,27 +175,13 @@ Note: There were some layout changes. The result is not quite the same as the ex
 
 - **Back-end**
   - [MongoDB](https://www.mongodb.com/) 
-    - As the data entered by users can always be different from one to the next, the project uses MongoDB to store its data as MongoDB is a Document Based Database.
   - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
-    - Flask is a framework that allows developers to easily present data in an orderly fashion. All data entered by a user, such as the Recipe Name, is presented to users with a few lines of code embedded into the HTML.
-      - Modules from Flask that have been included are:
-      - Flask
-      - flash
-      - render_template
-      - redirect
-      - request
-      - session
-      - url_for
-      - PyMongo
-  - [bson.objectid](https://www.npmjs.com/package/bson-objectid)
-      - ObjectId
   - [werkzeug.security](https://werkzeug.palletsprojects.com/en/1.0.x/utils/)
       - generate_password_hash
       - check_password_hash
   - [datetime](https://docs.python.org/3/library/datetime.html)
       - datetime
   - [Python](https://www.python.org/)
-    - Python is working very closely with Flask to manipulate data and HTML across multiple pages within the app.
 
 - **Validators**
   - The validators that have been used on the project are as followed:
@@ -309,6 +296,7 @@ https://www.feastingathome.com/thai-chicken-noodle-soup/
 - **Resources**
 
 The resources used to create this project:
+For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website
 
 ### **Acknowledgements**
 
