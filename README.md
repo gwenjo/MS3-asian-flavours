@@ -104,6 +104,9 @@ Icons
 Cancel button
 #bdbdbd grey lighten-1
 
+flash messages
+#880e4f pink darken-4
+
 ---
 ## **Wireframes**
 For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
