@@ -2,7 +2,6 @@
 {% block content %}
 
     <div class="container">
-
         <!-- Username display -->
         <div class="row">
             <div class="col s12 m8 offset-m2">
@@ -38,21 +37,18 @@
                 {% for recipe in recipes if session.user|lower == recipe.recipe_addedby|lower %}  <!-- Note: if recipes added by user, shown below -->
                 <div class="col s12 m6 l4 recipe-container">
                     <div class="card small">
-                        <a href="{{ url_for('recipe_input', recipe_id=recipe._id) }}">
-                            <img class="recipe-image" src="{{ recipe.recipe_image }}" alt="Recipe Image">
+                        <a href="{{ url_for('recipe_input', recipe_id=recipe._id) }}"><img class="recipe-image" src="{{ recipe.recipe_image }}" alt="Recipe Image">
                         </a>
                     </div>
-                    <p class="recipecard-title">{{ recipe.recipe_name }}</p>
+                        <p class="recipecard-title">{{ recipe.recipe_name }}</p>
                     <div class="card-action">
                         <a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}" class="btn-small green darken-2">Edit</a>
-                        <a href="{{ url_for('delete_recipe', recipe_id=recipe._id) }}" class="btn-small tooltipped red darken-2" data-position="bottom"
-                            data-tooltip="Please make sure you want to really delete before hitting the button!">Delete</a>
+                            <a href="{{ url_for('delete_recipe', recipe_id=recipe._id) }}" class="btn-small tooltipped red darken-2" data-position="bottom" data-tooltip="Please make sure you want to really delete before hitting the button!">Delete</a>
                     </div>
                 </div>  
                 {% endfor %}
             </div>
         </div>
-
     </div> 
 
 {% endblock %}

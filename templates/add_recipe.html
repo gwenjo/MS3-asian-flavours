@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <div class="container">
+<div class="container">
 
-        <h4 class="center-align page-header">Add Recipe</h4>
+    <h4 class="center-align page-header">Add Recipe</h4>
         <!-- Card panel form -->
         <div class="row card-panel grey lighten-5">
             <form class="col s12" method="POST" action="{{ url_for('add_recipe') }}">
@@ -14,7 +14,7 @@
                         <input id="recipe_name" name="recipe_name" minlength="1" maxlength="40" 
                             type="text" class="validate" required>
                         <label for="recipe_name">Recipe Name</label>
-                        <span class="register-remarks">40 characters max</span>
+                            <span class="register-remarks">40 characters max</span>
                     </div>
                 </div>
                 <!-- Country input -->
@@ -24,7 +24,7 @@
                         <input id="recipe_country" name="recipe_country" minlength="1" maxlength="30" type="text" class="validate"
                             required>
                         <label for="recipe_country">Country</label>
-                        <span class="register-remarks">Place the name of the country where the dish comes from </span>
+                            <span class="register-remarks">Place the name of the country where the dish comes from </span>
                     </div>
                 </div>
                 <!-- Ingredients input -->
@@ -34,7 +34,7 @@
                         <textarea id="recipe_ingredients" name="recipe_ingredients" minlength="3"
                             class="materialize-textarea validate" required></textarea>
                         <label for="recipe_ingredients">Ingredients</label>
-                        <span class="register-remarks">Enter each ingredient on a new line</span>
+                            <span class="register-remarks">Enter each ingredient on a new line</span>
                     </div>
                 </div>
                 <!-- Instruction input -->
@@ -44,7 +44,7 @@
                         <textarea id="recipe_instructions" name="recipe_instructions" minlength="3"
                             class="materialize-textarea validate" required></textarea>
                         <label for="recipe_instructions">Instructions</label>
-                        <span class="register-remarks">Enter each instruction/step or on a new line</span>
+                            <span class="register-remarks">Enter each instruction/step or on a new line</span>
                     </div>
                 </div>
                 <!-- Servings input -->
@@ -54,7 +54,7 @@
                         <input id="recipe_servings" name="recipe_servings" minlength="1" maxlength="2" type="text" class="validate"
                             required>
                         <label for="recipe_servings">Servings</label>
-                        <span class="register-remarks">Enter the number of people the recipe servings (for 2 people just enter "2"), please enter the NUMBER ONLY</span>
+                            <span class="register-remarks">Enter the number of people the recipe servings (for 2 people just enter "2"), please enter the NUMBER ONLY</span>
                     </div>
                 </div>
                
@@ -65,7 +65,7 @@
                         <input id="recipe_time" name="recipe_time" minlength="1" maxlength="3" type="text" class="validate"
                             required>
                         <label for="recipe_time">Duration</label>
-                        <span class="register-remarks">Enter the number of minutes needed to make the recipe (for 25 mins just enter "25"), please enter the NUMBER ONLY</span>
+                            <span class="register-remarks">Enter the number of minutes needed to make the recipe (for 25 mins just enter "25"), please enter the NUMBER ONLY</span>
                     </div>
                 </div>
                 <!-- Image input -->
@@ -75,7 +75,7 @@
                         <input id="recipe_image" name="recipe_image" minlength="3" maxlength="5000" 
                             type="text" class="validate" required>
                         <label for="recipe_image">URL Image</label>
-                        <span class="register-remarks">Enter the URL for your recipe image</span>
+                            <span class="register-remarks">Enter the URL for your recipe image</span>
                     </div>
                 </div>
                 <!-- Spicy checkbox input -->
@@ -101,6 +101,6 @@
                 </div>
             </form>
         </div>
-    </div>
+</div>
     
 {% endblock %}
