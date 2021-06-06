@@ -119,6 +119,11 @@ def add_recipe():
     if request.method == "POST":
         recipe_spicy = "on" if request.form.get(
             "recipe_spicy") else "off"
+        recipe_image = request.form.get("recipe_image") 
+        if ".jpg" in recipe_image or ".png" in recipe_image:
+            recipe_image = recipe_image
+        else:
+            recipe_image = "static/images/asian-dish.jpg"
         recipe = {
             "recipe_name": request.form.get("recipe_name"),
             "recipe_ingredients": request.form.get("recipe_ingredients"),
@@ -130,6 +135,7 @@ def add_recipe():
             "recipe_spicy": recipe_spicy,
             "recipe_addedby": session["user"]
         }
+
         mongo.db.recipes.insert_one(recipe)
         flash("Recipe Succesfully Added!")
         return redirect(url_for("get_recipes"))
@@ -155,7 +161,7 @@ def edit_recipe(recipe_id):
         }
         mongo.db.recipes.update({"_id": ObjectId(recipe_id)}, submit)
         flash("Recipe Succesfully updated!")
-
+        return redirect(url_for("get_recipes"))
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
 
     return render_template("edit_recipe.html", recipe=recipe)
