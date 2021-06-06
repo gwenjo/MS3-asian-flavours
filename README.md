@@ -10,9 +10,8 @@ Come and share your favorite asian meals! <br />
 
 Don't wait any longer and Sign Up! !
 
-[live site Asian Flavour](https://)
+live site [Asian Flavour](https://asian-flavours.herokuapp.com/)
 
-![Asian Flavour]()
 ## **Contents** ##
 * UX
     * [Project Summary](#project-summary)
@@ -76,8 +75,8 @@ for this website flask was chosen to build the backend.
 
 **Icons**
 -   An existing favicon has been chosen for this
-    website[Favicon](https://favicon.io/). 
--   FontAwesome](https://fontawesome.com/) was used for my forms and buttons, 
+    website [Favicon](https://favicon.io/). 
+-   [FontAwesome](https://fontawesome.com/) was used for my forms and buttons, 
     to make it more appealing.
 
 **Colour Scheme**
@@ -227,7 +226,6 @@ In the navbar the user can choose to log out. When logging out, a flash banner a
 -   Entering an email address for newsletter.
 -   Leave a comment underneath a recipe (for account members only).
 -   Rate the recipe.
--
 
 ---
 ## **Technologies**
