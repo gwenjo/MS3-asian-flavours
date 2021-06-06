@@ -116,6 +116,9 @@ def logout():
 
 @app.route("/add_recipe", methods=["GET", "POST"])  
 def add_recipe():
+    if not session.get("user"):
+        return render_template("404.html")
+        
     if request.method == "POST":
         recipe_spicy = "on" if request.form.get(
             "recipe_spicy") else "off"
@@ -145,6 +148,9 @@ def add_recipe():
 
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
+    if not session.get("user"):
+        return render_template("404.html")
+
     if request.method == "POST":
         recipe_spicy = "on" if request.form.get(
             "recipe_spicy") else "off"
@@ -180,9 +186,9 @@ def recipe_input(recipe_id):
     return render_template("recipe_input.html", recipe=recipe)
 
 
-@app.errorhandler(404)  
-def page_not_found(error):
-    return render_template('404.html'), 404
+# @app.errorhandler(404)  
+# def page_not_found(error):
+#    return render_template('404.html'), 404
 
 
 # @app.errorhandler(500) 
