@@ -147,10 +147,87 @@ Note: There were some layout changes. The result is not quite the same as the ex
 
 ## **Features**
 
+***Home/ Index Page***
+
+On this page there is a small introduction about the website. There is also a button on this page to register so you can start adding recipes right away.
+
+***Sign Up Page***
+
+A user must register first to add recipes. You can easily sign up, by creating a username and password.
+
+If a new user tries to register a username and it has already been used. Then a flash banner will appear at the top of the page. That will say “Username already in use!”
+
+When registering and all is well, the user will be greeted with a flash banner at the top of the page. That will say “Registration Successful” 
+
+***Sign In Page***
+
+You can easily sign in, by entering your username and password.
+
+When the users name and/or password do not match, a flash banner will appear at the top of the page. That will say "Incorrect username and/or Password".
+
+When signed in, the page will direct you to the profile page, the user will be greeted with a flash banner at the top of the page. That will say "Welcome username”.
+
+***Profile Page***
+
+The profile page will show the recipes entered by the user.
+
+Only when you are logged in and on the profile page, the user can see the recipes added by this user. The user can delete or edit these recipes.
+
+The delete button will delete the entire recipe. When you press this button, it can no longer be retrieved and you will have to add the recipe again. A pop-up warning will be given if they are sure they want to delete the recipe.
+
+***Recipes Page***
+
+The recipes page can be viewed by registered and unregistered users.
+
+All recipes are displayed in rows of 3.
+
+When you click on one of these images the recipe will be opened/enlarged in a card shape so that it is easy to follow.
+
+There is a search bar on the page to look up recipes, in the index for the mongo database can be searched for recipe_ingredients and recipe_intsructions.
+
+***Add Recipe Page***
+
+The 'Add Recipe' button will direct users to the form to add a recipe.
+
+How to add a recipe is very simple. You can easily fill in the form, under each line you will find a note on how to fill in the form.
+
+-   Recipe Name<br />
+    40 characters max
+-   Country<br />
+    Place the name of the country where the dish comes from
+-   Ingredients<br />
+    Enter each ingredient on a new line
+-   Instructions<br />
+    Enter each instruction/step or on a new line
+-   Servings<br />
+    Enter the number of people the recipe servings (for 2 people just enter "2"), please enter the NUMBER ONLY
+-   Duration<br />
+    Enter the number of minutes needed to make the recipe (for 25 mins just enter "25"), please enter the NUMBER ONLY
+-   URL Image<br />
+    Enter the URL for your recipe image
+-   Spicy?<br />
+    There is an on and off button where you can indicate whether a dish is spicy or not
+
+The form must be completed in full, otherwise it cannot be created.
+
+When the user added the correct information of the recipe, the users can see it on their profile page. The user will see a flash banner at the top of the page. That will say " Recipe Succesfully Added!”.
+
+***Edit Recipe Page***
+
+Users can choose to edit or delete their existing recipes from their profile.
+
+When the edit button is clicked. The completed form (same form as add recipe) appears and can be edited. When you are done editing you can press "edit". The edited data is then saved. Or you press "Go Back" Then the saved data remains the same.
+
+***Log Out***
+
+In the navbar the user can choose to log out. When logging out, a flash banner at the top of the page will say “You have been logged out” 
+
+
 **Features Left to Implement**
 -   Entering an email address for newsletter.
 -   Leave a comment underneath a recipe (for account members only).
 -   Rate the recipe.
+-
 
 ---
 ## **Technologies**
@@ -163,36 +240,37 @@ Note: There were some layout changes. The result is not quite the same as the ex
 
 **Front-End**
 
-  - [HTML5](https://en.wikipedia.org/wiki/HTML)
+- [HTML5](https://en.wikipedia.org/wiki/HTML)
     - To give the page its structure and presenting static data.
     - All HTML files are located within the 'templates' directory.
-  - [CSS](https://en.wikipedia.org/wiki/CSS)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
     - CSS has been used to style and customise the content of this project.
-  - [Materialize](https://materializecss.com/)
+- [Materialize](https://materializecss.com/)
     - This is a framework that I have used to simplify CSS classes, features that have been used and modified include the navbar, responsive design classes, and colors for backgrounds and text.
-  - [JQuery](https://en.wikipedia.org/wiki/JQuery)
+- [JQuery](https://en.wikipedia.org/wiki/JQuery)
     - JQuery has been used to give the site its functionality as well as making DOM manipulation simpler.
 
 - **Back-end**
-  - [MongoDB](https://www.mongodb.com/) 
-  - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
-  - [werkzeug.security](https://werkzeug.palletsprojects.com/en/1.0.x/utils/)
+- [MongoDB](https://www.mongodb.com/) 
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [werkzeug.security](https://werkzeug.palletsprojects.com/en/1.0.x/utils/)
       - generate_password_hash
       - check_password_hash
-  - [datetime](https://docs.python.org/3/library/datetime.html)
+- [datetime](https://docs.python.org/3/library/datetime.html)
       - datetime
-  - [Python](https://www.python.org/)
+- [Python](https://www.python.org/)
 
 - **Validators**
   - The validators that have been used on the project are as followed:
-    - [HTML Validator](https://validator.w3.org/nu/) - No issues apart from jinja templating
-    - [CSS Validator](https://jigsaw.w3.org/css-validator/) - No issues
-    - [JavaScript Validator](https://jshint.com/) - No issues 
-    - [Python Validator](http://pep8online.com/) - No issues
+- [HTML Validator](https://validator.w3.org/nu/) - No issues apart from jinja templating
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) - No issues
+- [JavaScript Validator](https://jshint.com/) - No issues 
+- [Python Validator](http://pep8online.com/) - No issues
 ---
+
 ## **Testing**
  
-For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website
+For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website.
 
 
 ## **Deployment**
@@ -200,7 +278,6 @@ For the main foundation of this website I used Tim Nelson's Code Institute Task 
 Github
 
 How to clone code from GitHub:
-
 1.  Go to [Github repository](https://github.com/gwenjo/asian-flavours), navigate to the main page and click Code:
 2.  To Clone the repository using HTTPS, under "Clone" click HTTPS.
 
@@ -252,11 +329,11 @@ Then click ‘Create app’:
 4.  Now go to `Settings`. Click `Reveal Config Vars`.
 
 Here you can fill in the variables from the `env.py` file to securely tell Heroku which variables are required:
-     - IP
-     - PORT
-     - MONGO_DBNAME
-     - MONGO_URI
-     - SECRET_KEY
+- IP
+- PORT
+- MONGO_DBNAME
+- MONGO_URI
+- SECRET_KEY
 
 <img src="readme-documents/reveal-config-vars.png" width="50%" height="50%">
 
@@ -283,9 +360,12 @@ Click on ‘View’ to launch the app.
 - **Content and Media**
 I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY. I have used different websites for different recipes.
 The content and images used in this site were obtained from links below:
+
 Images | Content
 
-image from Bich Tran - Pexels.com
+The content of the index.html page is written by me.
+
+Image from Bich Tran - Pexels.com
 https://www.allrecipes.com/recipe/245343/authentic-vietnamese-spring-rolls-nem-ran-hay-cha-gio/#:
 
 https://www.onceuponachef.com/recipes/cashew-chicken.html
@@ -293,13 +373,13 @@ https://www.onceuponachef.com/recipes/cashew-chicken.html
 image from Jan Ngyen - Pexels.com
 https://www.feastingathome.com/thai-chicken-noodle-soup/
 
-- **Resources**
+**Resources**
 
 The resources used to create this project:
 For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website
 
 ### **Acknowledgements**
 
- 
+
 
 **THIS PROJECT IS FOR EDUCATIONAL USE ONLY**

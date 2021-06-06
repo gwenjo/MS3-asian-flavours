@@ -41,12 +41,12 @@ def search():
 @app.route("/register", methods=["GET", "POST"]) 
 def register():
     if request.method == "POST":
-        # check if username already exists in db
+        # check if username already is in use in database
         existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
-        # if username exists
+        # if username is in use
         if existing_user:
-            flash("Username already exists")
+            flash("Username already in use!")
             return redirect(url_for("register"))
         # create username/password
         register = {
@@ -57,7 +57,7 @@ def register():
 
         # put the new user into 'session' cookie
         session["user"] = request.form.get("username").lower()
-        flash("Registration successful!")
+        flash("Registration Successful!")
         return redirect(url_for("profile", username=session["user"]))
 
     return render_template("register.html")
@@ -131,7 +131,7 @@ def add_recipe():
             "recipe_addedby": session["user"]
         }
         mongo.db.recipes.insert_one(recipe)
-        flash("Recipe added!")
+        flash("Recipe Succesfully Added!")
         return redirect(url_for("get_recipes"))
 
     return render_template("add_recipe.html")
