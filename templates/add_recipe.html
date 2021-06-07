@@ -51,7 +51,7 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="fas fa-user-friends prefix pink-text text-lighten-3"></i>
-                        <input id="recipe_servings" name="recipe_servings" minlength="1" maxlength="2" type="text" class="validate"
+                        <input type="number" id="recipe_servings" name="recipe_servings" min="2" max="20" class="validate"
                             required>
                         <label for="recipe_servings">Servings</label>
                             <span class="register-remarks">Enter the number of people the recipe servings (for 2 people just enter "2"), please enter the NUMBER ONLY</span>
@@ -62,8 +62,7 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="fas fa-clock prefix pink-text text-lighten-3"></i>
-                        <input id="recipe_time" name="recipe_time" minlength="1" maxlength="3" type="text" class="validate"
-                            required>
+                        <input type="number" id="recipe_time" name="recipe_time" min="10" max="120">
                         <label for="recipe_time">Duration</label>
                             <span class="register-remarks">Enter the number of minutes needed to make the recipe (for 25 mins just enter "25"), please enter the NUMBER ONLY</span>
                     </div>
