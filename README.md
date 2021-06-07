@@ -359,17 +359,32 @@ Click on ‘View’ to launch the app.
 I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY. I have used different websites for different recipes.
 The content and images used in this site were obtained from links below:
 
-Images | Content
+Content
 
-The content of the index.html page is written by me.
+-   The content of the index.html page is written by me.
 
-Image from Bich Tran - Pexels.com
-https://www.allrecipes.com/recipe/245343/authentic-vietnamese-spring-rolls-nem-ran-hay-cha-gio/#:
+Used websites and images
 
-https://www.onceuponachef.com/recipes/cashew-chicken.html
+[Char Siu Recipe](https://thewoksoflife.com/chinese-bbq-pork-cha-siu/)
 
-image from Jan Ngyen - Pexels.com
-https://www.feastingathome.com/thai-chicken-noodle-soup/
+[Pad Thai Recipe](https://www.eatingthaifood.com/pad-see-ew-recipe/)
+
+[Thai Basil Recipe](https://www.eatingthaifood.com/thai-basil-chicken-recipe-pad-kra-pao-gai/)
+
+[Orange Chicken Recipe](https://tasty.co/recipe/original-orange-chicken-by-panda-express)
+
+[Cashew Chicken Recipe](https://www.onceuponachef.com/recipes/cashew-chicken.html)
+
+[Chines Dumplings Recipe](https://mamalovestocook.com/chinese-dumplings-recipe/)
+
+[Steamed Fish With Lime and Garlic Recipe](https://www.eatingthaifood.com/steamed-fish-with-lime-and-garlic-recipe/)
+
+
+[Springroll Recipe](https://www.allrecipes.com/recipe/245343/authentic-vietnamese-spring-rolls-nem-ran-hay-cha-gio/#:)
+-   Image from [Dima Valkov](https://images.pexels.com/photos/4001867/pexels-photo-4001867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) - www.pexels.com
+
+[Noodle Soup Recipe](https://www.feastingathome.com/thai-chicken-noodle-soup/)
+-   Image from [Quang Nguyen Vinh](https://images.pexels.com/photos/2133989/pexels-photo-2133989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
 
 **Resources**
 
