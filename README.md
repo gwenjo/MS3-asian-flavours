@@ -32,7 +32,7 @@ live site [Asian Flavour](https://asian-flavours.herokuapp.com/)
 The goal of this project is (CRUD) to create a database of recipes that allows users to add, read, update and delete recipes.
 Asian Flavors gives access to all recipes in the database for all registered and unregistered users. Registered users can add new recipes, edit and delete their own recipes.
 
-### ** UX **
+### **UX** ###
 ** First time user **
 
 -	As a first user, I want to be able to register easily.
@@ -50,8 +50,8 @@ Asian Flavors gives access to all recipes in the database for all registered and
 
 ** Site owner’s Goal: **
 
-•	As the site owner, I want the user to have an easily accessible site.
-•	As the site owner, I want the user to be able to see all recipes added by       the registered users.
+-   As the site owner, I want the user to have an easily accessible site.
+-   As the site owner, I want the user to be able to see all recipes added by       the registered users.
 
 ### **Design choices**
 
@@ -70,6 +70,7 @@ was used for this website. It was used to create features such as navigation bar
 for this website flask was chosen to build the backend.
 
 **Typography**
+
 - I used [Google Fonts](https://fonts.google.com/specimen/Roboto) for the font style of this project. The font used for this website is Roboto with a backup font of Sans-serif. It is a simple and easy to read font. The font is also easy to read on smaller devices.
 
 
@@ -226,6 +227,7 @@ In the navbar the user can choose to log out. When logging out, a flash banner a
 -   Entering an email address for newsletter.
 -   Leave a comment underneath a recipe (for account members only).
 -   Rate the recipe.
+-   ption to download the recipe.
 
 ---
 ## **Technologies**
@@ -258,18 +260,18 @@ In the navbar the user can choose to log out. When logging out, a flash banner a
       - datetime
 - [Python](https://www.python.org/)
 
-- **Validators**
-  - The validators that have been used on the project are as followed:
-- [HTML Validator](https://validator.w3.org/nu/) - No issues apart from jinja templating
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) - No issues
-- [JavaScript Validator](https://jshint.com/) - No issues 
-- [Python Validator](http://pep8online.com/) - No issues
+
 ---
 
-## **Testing**
+## **Testing** ##
  
 For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website.
 
+**Validators**
+The validator that are used for this website are:
+    - [HTML Validator](https://validator.w3.org/nu/) - the website works as it should 
+    - [JavaScript Validator](https://jshint.com/) the website works as it should
+    - [Python Validator](http://pep8online.com/) the website works as it should
 
 ## **Deployment**
 
