@@ -267,6 +267,248 @@ In the navbar the user can choose to log out. When logging out, a flash banner a
  
 For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website.
 
+#### W3C CSS Validator
+
+The following page were passed through the W3C CSS validator:
+*   style.css
+
+<img src="readme-documents/" width="50%" height="50%"> desktop- NAVBAR
+
+When passed through the W3C CSS validator. The page passed without errors or warnings.
+
+User Stories
+
+** First time user **
+-   As a first user, I want to be able to register easily.
+
+When entering the website in the right corner of the navbar you will find "Sign Up ". Click on it and it will bring you to the sign-up page. Below the introduction there is also a button with Sign Up. This will also take you to the sign-up page.
+
+<img src="readme-documents/" width="50%" height="50%"> desktop- NAVBAR
+<img src="readme-documents/" width="50%" height="50%"> desktop- sign up
+
+On a mobile device you will find an icon bar which you can click and a navbar will open on the left side from the mobile screen.
+
+<img src="readme-documents/" width="50%" height="50%"> mobile- NAVBAR
+<img src="readme-documents/" width="50%" height="50%"> mobile SIGN UP PAGE
+
+
+-   As a first time user, I want an easy navigation website so that I can add and see my (new) recipes.
+
+On a desktop, a simple navigation bar is displayed in the top right corner of the page. The names in the navbar speak for themselves. You will have the Home page, Recipes page, Sign in page and Sign up page from which you can choose. 
+When u are signed in and go to "profile" you will see all your own added recipes. If you click on the recipe page you will find all recipes that have been added from someone who has an account.
+
+<img src="readme-documents/" width="50%" height="50%"> Mobile-PROFILE
+<img src="readme-documents/" width="50%" height="50%"> Mobile- RECIPES
+
+On a mobile device, you will see a drop-down menu on the right side corner with the options; Home, Recipes, Sign In and Sign Up.
+
+<img src="readme-documents/" width="50%" height="50%"> DROP DOWN MENU
+
+-   As a first user, I want a clear looking website so that the recipes are easy to follow.
+
+When clicking on the image on the recipe page, the recipe opens in card form so that the layout is easy to read.
+
+<img src="readme-documents/" width="50%" height="50%"> RECIPE PANEL CARD
+
+
+** Returning Users **
+
+-   As a returning user, I want to be able to sign in and out easily.
+
+On a desktop, a simple navigation bar is displayed in the top right corner of the page. You can easily sign in and out by clicking on the name, Sign in or Sign out. You can check if you are logged in or out by the flash banner that appears when you log in or log out.
+
+<img src="readme-documents/" width="50%" height="50%"> SIGN OUT
+
+-   As a returning user, I want to be able to edit and/or delete my added 
+    recipes.
+
+
+<img src="readme-documents/" width="50%" height="50%"> PROFILE EDIT/DELETE KNOP
+
+-   As a returning user, I would like to see all added recipes without logging in.
+
+When you open the website and want to quickly look up one of the recipes. You can view all recipes added by registered users without logging in.
+
+<img src="readme-documents/" width="50%" height="50%"> RECIPES
+
+** Site owner’s Goal: **
+
+•   As the site owner, I want the user to have an easily accessible site.
+The user can easily move around the navigation bar and see the menu items. There is little but enough text to explain how to add a recipe. Below each line is a remark that tells you the best way to add a recipe so that it appears nicely in the layout card form.
+
+•   As the site owner, I want the user to be able to see all recipes added by the registered users.
+
+The user can easily navigate to the profile page on the navbar when logged in. Since the user can find all their added recipes, they can delete or edit their own recipe whenever they want. User can easily navigate through the profile page, if they want to add a recipe, you can click the "Add New Recipe" button.
+
+#### Further testing
+The website has been tested on multiple browsers such as:
+- Safari (IOS) – The website works as it should in Safari
+- Google Chrome - The website works as it should in Google Chrome
+- Mozilla Firefox - The website works as it should in Mozilla Firefox
+
+The website has been tested on various devices such as:
+-   Desktop (15 inch)
+-   Laptop (13 inch Macbook air)
+-   Ipad mini
+-   And various cell phones such as an Iphone8, Iphone x, Iphone 11, Samsung A70 and a Samsung S20. 
+The website works properly on all the above devices
+ 
+#### Testing by Page
+**Index/ Home Page**
+
+*Navigation Bar:*
+1.  Go to the home page on a desktop, you will find the name of the website (Asian Flavours) at the top left. When you click on this, it will always take you back to the homepage.
+<img src="readme-documents/" width="50%" height="50%"> desktop naviagation
+
+2. When you resize the screen to a smaller size, you will see the navigation bar on the right. The menu will automatically adjust to a dropdown icon. When you click the icon on a mobile, the menu opens on the left as a dropdown. 
+<img src="readme-documents/" width="50%" height="50%"> mobile dropdown
+
+3.  The functionality of the navbar has been tested, all links of the navigation are responsive. All pages have been tested separately and work properly.
+*   Logo name > Homepage 
+*   Home > Home page 
+*   Recipes Page 
+*   Sign up page
+*   Sign In page
+*   Profile Page 
+*   Add Recipe age 
+*   Edit Recipe page
+*   Sign Out
+
+*Introduction:*
+
+1.  When opening the website on a desktop you will first see a large photo in the background with the title of the website Asian Flavours.
+2. Below the title is a small introduction of the website and its purpose.
+3. After the introduction there is a question if you already have an account. If not, you can click on the button that will take you to the sign up page. The usability of the link works and takes you to the sign-up page.
+
+<img src="readme-documents/" width="50%" height="50%"> desktop Homepage
+
+**Recipes Page**
+
+*Navigation Bar:*
+The navigation bar will be the same as the home page. Everything works as it should.
+
+1. When you click on recipes in the navigation bar, it will take you to the recipe page. All recipes created by users are saved here. These can be viewed by anyone. The recipes are displayed in rows of 3.
+
+<img src="readme-documents/" width="50%" height="50%"> recipes page
+
+2. There is a search bar on this page to find a specific dish, for example. If you type the word chicken, only chicken recipes will appear. The search button has been tested and works as it should.
+3. In the index of the mongo database can be searched for recipe_name and/ or recipe_ingredients. If you search for an ingredient in the search bar and it is not in the dish name or ingredients, a message will appear stating “No Results Found”.
+
+<img src="readme-documents/" width="50%" height="50%"> desktop no results found
+
+4. If you want to view the recipes, click on the photo of the recipe. The recipe will open into a card panel so the recipe is clear, easy to read and to follow. 
+
+<img src="readme-documents/" width="50%" height="50%"> desktop recipe card panel(ipad)
+
+5. At the bottom of the recipe there is a button that refers you back to the recipes page. The button has been tested, works and brings you back to the recipe page.
+
+**Sign up Page**
+
+*Navigation Bar:*
+The navigation bar will be the same as the home page. Everything works as it should.
+
+1.  Click "sign up" in the navigation bar to go to the sign up page.
+2. There is a simple registration form on the page. The input fields are; create a username and create a password.
+
+<img src="readme-documents/" width="50%" height="50%"> desktop sign up page
+
+3. If a username already exists, an error message will appear stating “username already in use”.
+
+<img src="readme-documents/" width="50%" height="50%"> desktop sign up page.
+
+4. When a new username and password has been created, press Sign up. This will take you to the profile page and a banner will appear with “registration successful”.
+
+<img src="readme-documents/" width="50%" height="50%"> desktop sign up page profile.
+
+**Sign In Page**
+
+*Navigation Bar:*
+The navigation bar will be the same as the home page. Everything works as it should.
+
+1.  As a returning user, click on "sign in" in the navigation bar this will brings you to the sign in page.
+2. Enter the username and your personal password and press sign in.
+
+<img src="readme-documents/" width="50%" height="50%"> desktop sign in page
+
+3. If the username and/or password is entered incorrectly, an error message will appear stating “incorrect username and/ or password”. This has been tested and works.
+
+<img src="readme-documents/" width="50%" height="50%"> desktop sign in page incorrect.
+
+4. When you are logged in the profile page will open and a flash banner will appear stating "welcome username".
+
+<img src="readme-documents/" width="50%" height="50%"> desktop sign in page incorrect.
+
+5. Under the sign the card panel is the text New Here? Sign Up! the "sign Up!" is a link. When you click on this link it will direct you to the sign up page. This link has been tested and works properly.
+
+
+** Profile Page** 
+
+1.  When you are signed in and/or you have created a new account, it will refer you to the profile page. This page is linked to the user. The user can add, edit and delete his or her recipes here. 
+
+2. If you have just created an account, there will be no recipes yet. On the profile page there is a button "add new recipe" it will direct you to the page to add a new recipe. The button has been tested and works properly.
+
+<img src="readme-documents/" width="50%" height="50%"> edit new recipe from profile page
+
+3. If recipes already have been added, you will see all recipes added by the user. If the user wants to edit a page, press the "edit" button. This button will direct you to the edit recipe page. The button has been tested and works properly.
+
+<img src="readme-documents/" width="50%" height="50%"> edit delete page
+
+3.  You can also choose to delete a recipe. When you hover over the "delete" button a message will appear stating “Please make sure you want to really delete before hitting the button”. The button has been tested and works properly.
+
+**Add Recipe age** 
+
+*Navigation Bar:*
+The navigation bar will be the same as the home page. Everything works as it should.
+
+1.	When you click 'Add recipe' in the navigation link, users will be directed to the form to add a recipe.
+2.	Adding a recipe is very easy. You can easily fill in the form, under each line you will find a remark on how to fill in the form correctly.
+
+<img src="readme-documents/" width="50%" height="50%"> add recipe page
+
+-   Recipe Name<br />
+    40 characters max
+-   Country<br />
+    Place the name of the country where the dish comes from
+-   Ingredients<br />
+    Enter each ingredient on a new line
+-   Instructions<br />
+    Enter each instruction/step or on a new line
+-   Servings<br />
+Enter the number of people the recipe servings (for 2 people just enter "2"), please enter the NUMBER ONLY
+-   Duration<br />
+Enter the number of minutes needed to make the recipe (for 25 mins just enter "25"), please enter the NUMBER ONLY
+-   URL Image<br />
+    Enter the URL for your recipe image
+-   Spicy?<br />
+There is an on and off button where you can indicate whether a dish is spicy or not
+
+3.	When the form is completed. Hit the "Add Recipe" button, this will display the recipe all neat and clearly on the page in a card form so it's easy to read.
+4.	The form must be completed in full, otherwise it cannot be created. 
+5.	After you have entered everything, a recipe will be created. The user will see a flash banner at the top of the page. That will say "Recipe successfully added!". The users can then see it on their profile page. The page has been checked and is working properly.
+
+<img src="readme-documents/" width="50%" height="50%"> desktop sign in page incorrect.
+
+Acknowledge
+However, I've seen that there is an issue with inserting the URL image address into the "add recipe" and "edit recipe" page. When you insert an image URL, it will show up nicely in the recipe.
+The thing is, if you just enter a website address, the system will accept it too. But then it doesn't show a picture of the recipe. I've seen the bug and will fix it in the near future.
+
+**Edit Recipe page**
+
+*Navigation Bar:*
+The navigation bar will be the same as the home page. Everything works as it should.
+
+1.	As a users you can choose to edit or delete the existing recipes from their profile.
+
+2.	When the edit button is clicked. The completed form (same form as add recipe) appears and can be edited. When you are finished editing you can press "edit". The edited data will be saved. This will bring you back to the profile page and a flash banner will appear and state “Recipe Successfully Updated”.
+
+3.	If you don't want to change anything about the recipe, press the "Go back" button, you will go back to the recipe page and the data will remain the same.
+
+ <img src="readme-documents/" width="50%" height="50%"> desktop sign in page incorrect.
+
+**Sign Out**
+In the navbar the user can choose to sign out. When signed out, a flash banner at the top of the page will say “You have been signed out”. The link has been tested and works properly.
+
+
 **Validators**
 The validator that are used for this website are:
     - [HTML Validator](https://validator.w3.org/nu/) - the website works as it should 
