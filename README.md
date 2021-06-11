@@ -183,7 +183,7 @@ All recipes are displayed in rows of 3.
 
 When you click on one of these images the recipe will be opened/enlarged in a card shape so that it is easy to follow.
 
-There is a search bar on the page to look up recipes, in the index for the mongo database can be searched for recipe_ingredients and recipe_intsructions.
+There is a search bar on the page to look up recipes, in the index for the mongo database can be searched for recipe_name and/ or recipe_ingredients.
 
 ***Add Recipe Page***
 
