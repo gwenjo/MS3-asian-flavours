@@ -520,7 +520,7 @@ Mobile - Go Back button
 
 **Sign Out**
 
-In the navbar the user can choose to sign out. When signed out, a flash banner at the top of the page will say “You have been logged out”. The link has been tested and works properly.
+In the navbar the user can choose to sign out. When signed out, a flash banner at the top of the page will say “You have been logged out”. It will automatically redirect you back to the login page. The link has been tested and works properly.
 
 Mobile - Sign out
 
@@ -530,7 +530,10 @@ Mobile - Sign out
 
 The validator that are used for this website are:
 -   [HTML Validator](https://validator.w3.org/nu/) - the website works as it should 
--   [JavaScript Validator](https://jshint.com/) the website works as it should
+-   [JavaScript Validator](https://jshint.com/) There are no errors found on the JSHint. The website works as it should
+
+<img src="readme-documents/testing/jshint.jpg" width="50%" height="50%">
+
 -   [Python Validator](http://pep8online.com/) the website works as it should
 
 ## **Deployment**
@@ -600,10 +603,10 @@ Here you can fill in the variables from the `env.py` file to securely tell Herok
 
 5.  After adding the variables push requirements.txt and Profile to the repository
 
-`$ git add requirements.txt`
+`$ git add requirements.txt`<br />
 `$ git commit -m “add requirements.txt”`
 
-`$ git add Profile`
+`$ git add Profile`<br />
 `$ git commit -m ”Profile”`
 
 `$ git push`
@@ -621,15 +624,16 @@ Click on ‘View’ to launch the app.
 ## **Credits**
 - **Content and Media**
 
-I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY. 
-I have used different websites for different recipes.
-The content and images used in this site were obtained from links below:
+I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY.<br />
+
 
 Content
 
--   The content of the index.html page is written by me.
+I have used different websites for different recipes. The content and images used in this site were obtained from links below:
 
-Used websites and images
+The content of the index.html page is written by me.
+
+Used websites and images:
 
 [Char Siu Recipe](https://thewoksoflife.com/chinese-bbq-pork-cha-siu/)
 
@@ -654,11 +658,14 @@ Used websites and images
 
 **Resources**
 
-The resources used to create this project:
 For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website
 
 ### **Acknowledgements**
 
+I want to thank my friends and family for putting up with my moodiness these past few weeks.
 
+I would also want to thank my mentor who believed in me that I can do this project in 3 weeks and my fellow student Daphne for always staying positive!
+
+The Slack community!
 
 **THIS PROJECT IS FOR EDUCATIONAL USE ONLY**
