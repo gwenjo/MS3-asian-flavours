@@ -530,6 +530,12 @@ Mobile - Sign out
 
 The validator that are used for this website are:
 -   [HTML Validator](https://validator.w3.org/nu/) - the website works as it should 
+
+<img src="readme-documents/testing/html-validator.jpg" width="50%" height="50%">
+
+For the HTML validator there was one warning found. Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. <br /> I have changed the <section> into <main>
+
+
 -   [JavaScript Validator](https://jshint.com/) There are no errors found on the JSHint. The website works as it should
 
 <img src="readme-documents/testing/jshint.jpg" width="50%" height="50%">
