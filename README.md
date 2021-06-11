@@ -3,7 +3,7 @@
 
 **Asian Flavours**
 
-Welcome to Asian flavor. 
+Welcome to Asian flavours. 
 The purpose of this website is that people can share different (preferably Asian) dishes with each other. You can do this by registering yourself. If you are registered you can sign in and sign out, keep track of recipes, change and delete your own recipes.
 
 Come and share your favorite asian meals! <br />
@@ -32,7 +32,7 @@ live site [Asian Flavours](https://asian-flavours.herokuapp.com/)
 The goal of this project is (CRUD) to create a database of recipes that allows users to add, read, update and delete recipes.
 Asian Flavors gives access to all recipes in the database for all registered and unregistered users. Registered users can add new recipes, edit and delete their own recipes.
 
-### **UX** ###
+### **User Stories** ###
 ** First time user **
 
 -	As a first user, I want to be able to register easily.
@@ -57,7 +57,7 @@ Asian Flavors gives access to all recipes in the database for all registered and
 
 The chosen design for this website is clear and user-friendly.
 
-In the navigation and throughout the website there are several buttons that lead you back to the homepage.
+In the navigation and throughout the website there are several buttons that will lead you back to the homepage.
 
 **Framework**
 
@@ -75,8 +75,7 @@ for this website flask was chosen to build the backend.
 
 
 **Icons**
--   An existing favicon has been chosen for this
-    website [Favicon](https://favicon.io/). 
+-   An existing favicon has been chosen for this website [Favicon](https://         favicon.io/). 
 -   [FontAwesome](https://fontawesome.com/) was used for my forms and buttons, 
     to make it more appealing.
 
@@ -111,6 +110,7 @@ flash messages
 color: #880e4f pink darken-4
 
 ---
+
 ## **Wireframes**
 For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
 
@@ -239,7 +239,6 @@ In the navbar the user can choose to log out. When logging out, a flash banner a
   * [Gitpod](https://gitpod.io/)
 
 **Front-End**
-
 - [HTML5](https://en.wikipedia.org/wiki/HTML)
     - To give the page its structure and presenting static data.
     - All HTML files are located within the 'templates' directory.
@@ -260,7 +259,6 @@ In the navbar the user can choose to log out. When logging out, a flash banner a
       - datetime
 - [Python](https://www.python.org/)
 
-
 ---
 
 ## **Testing** ##
@@ -272,11 +270,11 @@ For the main foundation of this website I used Tim Nelson's Code Institute Task 
 The following page were passed through the W3C CSS validator:
 *   style.css
 
-<img src="readme-documents/css-validator.jpg" width="50%" height="50%">
+<img src="readme-documents/testing/css-validator.jpg" width="50%" height="50%">
 
 When passed through the W3C CSS validator. The page passed without errors or warnings.
 
-User Stories
+User Storiess
 
 ** First time user **
 -   As a first user, I want to be able to register easily.
@@ -322,14 +320,13 @@ On a desktop, a simple navigation bar is displayed in the top right corner of th
 -   As a returning user, I want to be able to edit and/or delete my added 
     recipes.
 
-
-<img src="readme-documents/" width="50%" height="50%"> PROFILE EDIT/DELETE KNOP
+    <img src="readme-documents/testing/desktop-profile.jpg" width="50%" height="50%">
 
 -   As a returning user, I would like to see all added recipes without logging in.
 
 When you open the website and want to quickly look up one of the recipes. You can view all recipes added by registered users without logging in.
 
-<img src="readme-documents/" width="50%" height="50%"> RECIPES
+<img src="readme-documents/testing/desktop-recipes.jpg" width="50%" height="50%">
 
 ** Site owner’s Goal: **
 
@@ -359,11 +356,11 @@ The website works properly on all the above devices
 *Navigation Bar:*
 1.  Go to the home page on a desktop, you will find the name of the website (Asian Flavours) at the top left. When you click on this, it will always take you back to the homepage.
 
-    <img src="readme-documents/desktop-homepage.jpg" width="50%" height="50%">
+    <img src="readme-documents/testing/desktop-homepage.jpg" width="50%" height="50%">
 
 2. When you resize the screen to a smaller size, you will see the navigation bar on the right. The menu will automatically adjust to a dropdown icon. When you click the icon on a mobile, the menu opens on the left as a dropdown. 
 
-    <img src="readme-documents/mobile-navbar-menu.jpg" width="50%" height="50%"> mobile dropdown
+    <img src="readme-documents/testing/mobile-navbar-menu.jpg" width="50%" height="50%"> mobile dropdown
 
 3.  The functionality of the navbar has been tested, all links of the navigation are responsive. All pages have been tested separately and work properly.
 *   Logo name > Homepage 
@@ -391,12 +388,12 @@ The navigation bar will be the same as the home page. Everything works as it sho
 
 1. When you click on recipes in the navigation bar, it will take you to the recipe page. All recipes created by users are saved here. These can be viewed by anyone. The recipes are displayed in rows of 3.
 
-<img src="readme-documents/" width="50%" height="50%"> recipes page
+<img src="readme-documents/testing/" width="50%" height="50%"> recipes page
 
 2. There is a search bar on this page to find a specific dish, for example. If you type the word chicken, only chicken recipes will appear. The search button has been tested and works as it should.
 3. In the index of the mongo database can be searched for recipe_name and/ or recipe_ingredients. If you search for an ingredient in the search bar and it is not in the dish name or ingredients, a message will appear stating “No Results Found”.
 
-<img src="readme-documents/" width="50%" height="50%"> desktop no results found
+    <img src="readme-documents/testing/desktop-no-results.jpg" width="50%" height="50%">
 
 4. If you want to view the recipes, click on the photo of the recipe. The recipe will open into a card panel so the recipe is clear, easy to read and to follow. 
 
@@ -465,24 +462,7 @@ The navigation bar will be the same as the home page. Everything works as it sho
 1.	When you click 'Add recipe' in the navigation link, users will be directed to the form to add a recipe.
 2.	Adding a recipe is very easy. You can easily fill in the form, under each line you will find a remark on how to fill in the form correctly.
 
-<img src="readme-documents/" width="50%" height="50%"> add recipe page
-
--   Recipe Name<br />
-    40 characters max
--   Country<br />
-    Place the name of the country where the dish comes from
--   Ingredients<br />
-    Enter each ingredient on a new line
--   Instructions<br />
-    Enter each instruction/step or on a new line
--   Servings<br />
-Enter the number of people the recipe servings (for 2 people just enter "2"), please enter the NUMBER ONLY
--   Duration<br />
-Enter the number of minutes needed to make the recipe (for 25 mins just enter "25"), please enter the NUMBER ONLY
--   URL Image<br />
-    Enter the URL for your recipe image
--   Spicy?<br />
-There is an on and off button where you can indicate whether a dish is spicy or not
+<img src="readme-documents/testing/mobile-add-recipe.jpg" width="50%" height="50%"> 
 
 3.	When the form is completed. Hit the "Add Recipe" button, this will display the recipe all neat and clearly on the page in a card form so it's easy to read.
 4.	The form must be completed in full, otherwise it cannot be created. 
@@ -503,19 +483,26 @@ The navigation bar will be the same as the home page. Everything works as it sho
 
 2.	When the edit button is clicked. The completed form (same form as add recipe) appears and can be edited. When you are finished editing you can press "edit". The edited data will be saved. This will bring you back to the profile page and a flash banner will appear and state “Recipe Successfully Updated”.
 
+    <img src="readme-documents/testing/mobile-updated.jpg" width="50%" height="50%">
+
 3.	If you don't want to change anything about the recipe, press the "Go back" button, you will go back to the recipe page and the data will remain the same.
 
-    <img src="readme-documents/edit-recipe-button.jpg" width="50%" height="50%">  
+    <img src="readme-documents/testing/edit-recipe-button.jpg" width="50%" height="50%">  
+
+4. 
 
 **Sign Out**
-In the navbar the user can choose to sign out. When signed out, a flash banner at the top of the page will say “You have been signed out”. The link has been tested and works properly.
 
+In the navbar the user can choose to sign out. When signed out, a flash banner at the top of the page will say “You have been logged out”. The link has been tested and works properly.
+
+<img src="readme-documents/testing/mobile-logged-out.jpg" width="50%" height="50%"> 
 
 **Validators**
+
 The validator that are used for this website are:
-    - [HTML Validator](https://validator.w3.org/nu/) - the website works as it should 
-    - [JavaScript Validator](https://jshint.com/) the website works as it should
-    - [Python Validator](http://pep8online.com/) the website works as it should
+-   [HTML Validator](https://validator.w3.org/nu/) - the website works as it should 
+-   [JavaScript Validator](https://jshint.com/) the website works as it should
+-   [Python Validator](http://pep8online.com/) the website works as it should
 
 ## **Deployment**
 
@@ -555,11 +542,11 @@ To properly explain the deployment to Heroku progress. I’ll give a detailed ex
     <img src="readme-documents/deployment/new-app.png" width="50%" height="50%">
     
     
-Create an app name
-Choose region closest to you:
-Then click ‘Create app’:
+-   Create an app name
+-   Choose region closest to you:
+-   Then click ‘Create app’:
 
-<img src="readme-documents/deployment/heroku-app-name.png" width="50%" height="50%">
+    <img src="readme-documents/deployment/heroku-app-name.png" width="50%" height="50%">
     
 3.  Than select:
 -   Deploy
@@ -604,7 +591,9 @@ Click on ‘View’ to launch the app.
 
 ## **Credits**
 - **Content and Media**
-I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY. I have used different websites for different recipes.
+
+I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY. 
+I have used different websites for different recipes.
 The content and images used in this site were obtained from links below:
 
 Content
