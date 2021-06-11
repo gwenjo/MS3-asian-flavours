@@ -10,7 +10,7 @@ Come and share your favorite asian meals! <br />
 
 Don't wait any longer and Sign Up! !
 
-live site [Asian Flavour](https://asian-flavours.herokuapp.com/)
+live site [Asian Flavours](https://asian-flavours.herokuapp.com/)
 
 ## **Contents** ##
 * UX
@@ -117,28 +117,28 @@ For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice a
 Links to the wireframes can be found here:
 
 Desktop Wireframes <br>
-1.  <img src="readme-documents/desktop-home.jpg" width="60%" height="60%">
-2.  <img src="readme-documents/desktop-signup.jpg" width="60%" height="60%">
-3.  <img src="readme-documents/desktop-login.jpg" width="60%" height="60%">
-4.  <img src="readme-documents/desktop-addrecipe.jpg" width="60%" height="60%">
-5.  <img src="readme-documents/desktop-recipes.jpg" width="60%" height="60%">
+1.  <img src="readme-documents/wireframes/desktop-home.jpg" width="60%" height="60%">
+2.  <img src="readme-documents/wireframes/desktop-signup.jpg" width="60%" height="60%">
+3.  <img src="readme-documents/wireframes/desktop-login.jpg" width="60%" height="60%">
+4.  <img src="readme-documents/wireframes/desktop-addrecipe.jpg" width="60%" height="60%">
+5.  <img src="readme-documents/wireframes/desktop-recipes.jpg" width="60%" height="60%">
 
-Desktop Wireframe, for bigger image click here the following numbers [ (1.) ](readme-documents/desktop-home.jpg)[ (2.) ](readme-documents/desktop-signup.jpg)[ (3.) ](readme-documents/desktop-login.jpg)[ (4.) ](readme-documents/desktop-addrecipe.jpg)[ (5.) ](readme-documents/desktop-recipes.jpg)
+Desktop Wireframe, for bigger image click here the following numbers [ (1.) ](readme-documents/wireframes/desktop-home.jpg)[ (2.) ](readme-documents/wireframes/desktop-signup.jpg)[ (3.) ](readme-documents/wireframes/desktop-login.jpg)[ (4.) ](readme-documents/wireframes/desktop-addrecipe.jpg)[ (5.) ](readme-documents/wireframes/desktop-recipes.jpg)
 
 
 Mobile Wireframe <br>
-1a. <img src="readme-documents/mobile-home.jpg" width="60%" height="60%">
+1a. <img src="readme-documents/wireframes/mobile-home.jpg" width="60%" height="60%">
 
-2a. <img src="readme-documents/mobile-signup.jpg" width="60%" height="60%">
+2a. <img src="readme-documents/wireframes/mobile-signup.jpg" width="60%" height="60%">
 
-3a. <img src="readme-documents/mobile-login.jpg" width="60%" height="60%">
+3a. <img src="readme-documents/wireframes/mobile-login.jpg" width="60%" height="60%">
 
-4a. <img src="readme-documents/mobile-addrecipe.jpg" width="60%" height="60%">
+4a. <img src="readme-documents/wireframes/mobile-addrecipe.jpg" width="60%" height="60%">
 
-5a. <img src="readme-documents/mobile-recipes.jpg" width="60%" height="60%">
+5a. <img src="readme-documents/wireframes/mobile-recipes.jpg" width="60%" height="60%">
 
 
-Mobile Wireframe, for bigger image [click here the following numbers [ (1a.) ](readme-documents/mobile-home.jpg)[ (2a.) ](readme-documents/mobile-signup.jpg)[ (3a.) ](readme-documents/mobile-login.jpg)[ (4a.) ](readme-documents/mobile-addrecipe.jpg)[ (5a.) ](readme-documents/mobile-recipes.jpg)
+Mobile Wireframe, for bigger image [click here the following numbers [ (1a.) ](readme-documents/wireframes/mobile-home.jpg)[ (2a.) ](readme-documents/wireframes/mobile-signup.jpg)[ (3a.) ](readme-documents/wireframes/mobile-login.jpg)[ (4a.) ](readme-documents/wireframes/mobile-addrecipe.jpg)[ (5a.) ](readme-documents/wireframes/mobile-recipes.jpg)
 
 
 Note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
@@ -272,7 +272,7 @@ For the main foundation of this website I used Tim Nelson's Code Institute Task 
 The following page were passed through the W3C CSS validator:
 *   style.css
 
-<img src="readme-documents/" width="50%" height="50%"> desktop- NAVBAR
+<img src="readme-documents/css-validator.jpg" width="50%" height="50%">
 
 When passed through the W3C CSS validator. The page passed without errors or warnings.
 
@@ -358,15 +358,17 @@ The website works properly on all the above devices
 
 *Navigation Bar:*
 1.  Go to the home page on a desktop, you will find the name of the website (Asian Flavours) at the top left. When you click on this, it will always take you back to the homepage.
-<img src="readme-documents/" width="50%" height="50%"> desktop naviagation
+
+    <img src="readme-documents/desktop-homepage.jpg" width="50%" height="50%">
 
 2. When you resize the screen to a smaller size, you will see the navigation bar on the right. The menu will automatically adjust to a dropdown icon. When you click the icon on a mobile, the menu opens on the left as a dropdown. 
-<img src="readme-documents/" width="50%" height="50%"> mobile dropdown
+
+    <img src="readme-documents/mobile-navbar-menu.jpg" width="50%" height="50%"> mobile dropdown
 
 3.  The functionality of the navbar has been tested, all links of the navigation are responsive. All pages have been tested separately and work properly.
 *   Logo name > Homepage 
 *   Home > Home page 
-*   Recipes Page 
+*   Recipes Page    
 *   Sign up page
 *   Sign In page
 *   Profile Page 
@@ -503,7 +505,7 @@ The navigation bar will be the same as the home page. Everything works as it sho
 
 3.	If you don't want to change anything about the recipe, press the "Go back" button, you will go back to the recipe page and the data will remain the same.
 
- <img src="readme-documents/" width="50%" height="50%"> desktop sign in page incorrect.
+    <img src="readme-documents/edit-recipe-button.jpg" width="50%" height="50%">  
 
 **Sign Out**
 In the navbar the user can choose to sign out. When signed out, a flash banner at the top of the page will say “You have been signed out”. The link has been tested and works properly.
@@ -523,7 +525,7 @@ How to clone code from GitHub:
 1.  Go to [Github repository](https://github.com/gwenjo/asian-flavours), navigate to the main page and click Code:
 2.  To Clone the repository using HTTPS, under "Clone" click HTTPS.
 
-<img src="readme-documents/clone-github.png" width="50%" height="50%">
+<img src="readme-documents/deployment/clone-github.png" width="50%" height="50%">
 
 3.  Open Git Bash in your local IDE.
 4.  Change your current working directory to where you want the cloned directory to be made.
@@ -533,12 +535,12 @@ How to clone code from GitHub:
 
 ### **How to clone this repository to your device**
 1.  Create an `env.py` file to store variables, also create .gitignore file to keep these from being displayed:
-     - Import os 
-     - os.environ.setdefault("IP", "value") 
-     - os.environ.setdefault("PORT", "value") 
-     - os.environ.setdefault("SECRET_KEY", " value") 
-     - os.environ.setdefault("MONGO_URI", " value") 
-     - os.environ.setdefault("MONGO_DBNAME", "value")
+-   Import os 
+-   os.environ.setdefault("IP", "value") 
+-   os.environ.setdefault("PORT", "value") 
+-   os.environ.setdefault("SECRET_KEY", " value") 
+-   os.environ.setdefault("MONGO_URI", " value") 
+-   os.environ.setdefault("MONGO_DBNAME", "value")
 
 To properly explain the deployment to Heroku progress. I’ll give a detailed explanation below:
 
@@ -550,13 +552,14 @@ To properly explain the deployment to Heroku progress. I’ll give a detailed ex
 `echo web: python app.py > Procfile`.
 6. Go to [Heroku]( https://id.heroku.com/login) and login, on your dashboard on the right, click ‘New’ than ‘Create new app’:
 
-<img src="readme-documents/new-app.png" width="50%" height="50%">
+    <img src="readme-documents/deployment/new-app.png" width="50%" height="50%">
+    
     
 Create an app name
 Choose region closest to you:
 Then click ‘Create app’:
 
-<img src="readme-documents/heroku-app-name.png" width="50%" height="50%">
+<img src="readme-documents/deployment/heroku-app-name.png" width="50%" height="50%">
     
 3.  Than select:
 -   Deploy
@@ -566,7 +569,7 @@ Then click ‘Create app’:
 -   Click the `Search` button,
 -   If the repository is found, click `Connect` to connect to this app:
 
-<img src="readme-documents/deployment-method.png" width="50%" height="50%">
+    <img src="readme-documents/deployment/deployment-method.png" width="50%" height="50%">
 
 4.  Now go to `Settings`. Click `Reveal Config Vars`.
 
@@ -575,11 +578,12 @@ Here you can fill in the variables from the `env.py` file to securely tell Herok
 - PORT
 - MONGO_DBNAME
 - MONGO_URI
-- SECRET_KEY
+- SECRET_KEYdeployment
 
-<img src="readme-documents/reveal-config-vars.png" width="50%" height="50%">
+    <img src="readme-documents/deployment/reveal-config-vars.png" width="50%" height="50%">
 
 5.  After adding the variables push requirements.txt and Profile to the repository
+
 `$ git add requirements.txt`
 `$ git commit -m “add requirements.txt”`
 
@@ -590,12 +594,12 @@ Here you can fill in the variables from the `env.py` file to securely tell Herok
 
 6.  Go back to the Heroku page, and press ‘Enable Automatic Deployment’ and then click ‘Deploy Branch’.
     
-<img src="readme-documents/deploy-branch.png" width="50%" height="50%">
+    <img src="readme-documents/deployment/deploy-branch.png" width="50%" height="50%">
 
 7.  When Heroku is finished building you will see Your app was successfully deployed.
 Click on ‘View’ to launch the app.
     
-<img src="readme-documents/view-deploy.png" width="50%" height="50%">
+    <img src="readme-documents/deployment/view-deploy.png" width="50%" height="50%">
  
 
 ## **Credits**
