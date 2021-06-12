@@ -70,7 +70,7 @@
 
 </header>
     <!-- Flash Messages -->
-    <section>
+    <main>
         {% with messages = get_flashed_messages() %}
             {% if messages %}
                 {% for message in messages %}
@@ -78,7 +78,7 @@
                 {% endfor %}
             {% endif %}
         {% endwith %}    
-    </section>
+    </main>
 
     <!-- Main content -->
     <main>
@@ -95,7 +95,7 @@
     
     <!-- Javascript -->
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    
+ 
     <!-- Custom Javascript -->
     {% block scripts %}
     {% endblock %}

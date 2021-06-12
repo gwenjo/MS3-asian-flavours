@@ -616,12 +616,16 @@ Desktop
 
     Mobile
     
-1.  <img src="readme-documents/lighthouse" width="50%" height="50%">
-2.  <img src="readme-documents/lighthouse" width="50%" height="50%">
-3.  <img src="readme-documents/lighthouse" width="50%" height="50%">
-4.  <img src="readme-documents/lighthouse" width="50%" height="50%">
-5.  <img src="readme-documents/lighthouse" width="50%" height="50%">
-6.  <img src="readme-documents/lighthouse" width="50%" height="50%">
+1.  <img src="readme-documents/lighthouse/mobile-lighthouse1.jpg" width="50%" height="50%">
+2.  <img src="readme-documents/lighthouse/mobile-lighthouse2.jpg" width="50%" height="50%">
+3.  <img src="readme-documents/lighthouse/mobile-lighthouse3.jpg" width="50%" height="50%">
+4.  <img src="readme-documents/lighthouse/mobile-lighthouse4.jpg" width="50%" height="50%">
+5.  <img src="readme-documents/lighthouse/mobile-lighthouse5.jpg" width="50%" height="50%">
+6.  <img src="readme-documents/lighthouse/mobile-lighthouse6.jpg" width="50%" height="50%">
+
+Note: I don't know what happened in the meantime i was working on my readme, but when I started testing the mobile lighthouse version, two errors came up. <br />
+Namely; Failed to load resource: the server responded with a status of 404 ()
+I'm aware of this error. unfortunately I can't solve this as my deadline is today. I take it as an improvement point.
 
 ## **Fixed Issues**
 
@@ -771,7 +775,7 @@ To get some inspiration I looked at my f[ellow student's](http://good-cook-bk.he
 ### **Acknowledgements**
 ---
 
-I want to thank my friends and family for putting up with my moodiness these past few weeks.
+I want to thank my friends and family who have viewed my website multiple times,have given me good criticism on my website and for putting up with my moodiness these past few weeks.
 
 I would also want to thank my mentor who believed in me that I can do this project in 3 weeks and my fellow student Daphne for always staying positive!
 
