@@ -10,6 +10,8 @@ Come and share your favorite asian meals! <br />
 
 Don't wait any longer and Sign Up! !
 
+<img src="readme-documents/mockup.jpg">
+
 live site [Asian Flavours](https://asian-flavours.herokuapp.com/)
 
 ## **Contents** ##
@@ -541,6 +543,11 @@ For the HTML validator there was one warning found. Section lacks heading. Consi
 -   [Python Validator](http://pep8online.com/) No strange errors where found        the website works as it should.
 
 <img src="readme-documents/testing/python-results.jpg" width="50%" height="50%">
+
+## **Fixed Issues**
+
+
+
 
 ## **Deployment**
 
