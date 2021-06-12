@@ -73,11 +73,12 @@ In the navigation and throughout the website there are several buttons that will
     elements.
 
 -   Micro framework [Flask](https://flask.palletsprojects.com/en/1.1.x/), 
-    was usedfor this website, flask was chosen to build the backend.
+    was used for this website, flask was chosen to build the backend.
 
 **Typography**
 
--   [Google Fonts](https://fonts.google.com/specimen/Roboto) was used for the font style of this project. The font used for this website is Roboto with a backup font of Sans-serif. It is a simple and easy to read font. The font is also easy to read on smaller devices.
+-   [Google Fonts](https://fonts.google.com/specimen/Roboto) was used for the       font style of this project. The font used for this website is Roboto with a
+    backup font of Sans-serif. It is a simple and easy to read font. The font is also easy to read on smaller devices.
 
 **Icons**
 -   An existing favicon has been chosen for this website [Favicon](https://         favicon.io/). 
@@ -624,8 +625,9 @@ Desktop
 
 ## **Fixed Issues**
 
+When I ran my website through the webaim contrast checker there were minor contrast issues. I have solved some of them. For example, made the color of the card panel slightly darker and the search and reset name mentioned at the icons. I chose to leave the rest of the issues and will pick it up to change in the near future.
 
-
+In the beginning I had a few problems with mongodb. I started over several times because I didn't know where my mistake was. This has all been solved and all data is correct in MongoDB.
 
 ## **Deployment**
 ---
