@@ -361,7 +361,7 @@ The website has been tested on various devices such as:
 -   And various cell phones such as an Iphone8, Iphone x, Iphone 11, Samsung A70 and a Samsung S20. 
 The website works properly on all the above devices
  
-#### Testing by Page
+#### Manual testing
 **Index/ Home Page**
 
 *Navigation Bar:*
@@ -533,14 +533,15 @@ The validator that are used for this website are:
 
 <img src="readme-documents/testing/html-validator.jpg" width="50%" height="50%">
 
-For the HTML validator there was one warning found. Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. <br /> I have changed the <section> into <main>
-
+For the HTML validator there was one warning found. Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. <br /> I am aware of this warning, I chose to leave the H4 header the way it is. I don't have many headers on this website. Other than that, the website works fine.
 
 -   [JavaScript Validator](https://jshint.com/) There are no errors found on the JSHint. The website works as it should
 
 <img src="readme-documents/testing/jshint.jpg" width="50%" height="50%">
 
 -   [Python Validator](http://pep8online.com/) the website works as it should
+
+<img src="readme-documents/testing/python-results.jpg" width="50%" height="50%">
 
 ## **Deployment**
 
