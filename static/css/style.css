@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
-
 body {
 	font-family: 'Roboto', sans-serif;
 }
 
 .theme_color {
-    color: #880e4f;
+	color: #880e4f;
 }
-
 
 .text-shadow {
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);

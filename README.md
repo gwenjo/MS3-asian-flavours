@@ -763,9 +763,10 @@ Materialize was used for the:<br />
 [Icons](https://materializecss.com/icons.html)
 
 
-W3schools was used for:
+W3schools was used for:<br />
 [Input type](https://www.w3schools.com/tags/att_input_type_text.asp)
 
+To get some inspiration I looked at my f[ellow student's](http://good-cook-bk.herokuapp.com/edit_recipes) work.
 
 ### **Acknowledgements**
 ---
