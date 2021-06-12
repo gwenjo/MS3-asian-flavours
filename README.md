@@ -544,6 +544,26 @@ For the HTML validator there was one warning found. Section lacks heading. Consi
 
 <img src="readme-documents/testing/python-results.jpg" width="50%" height="50%">
 
+**Lighthouse**
+
+Desktop
+
+1.  <img src="readme-documents/lighthouse/desktop-lighthouse1.jpg" width="50%" height="50%">
+2.  <img src="readme-documents/lighthouse/desktop-lighthouse2.jpg" width="50%" height="50%">
+3.  <img src="readme-documents/lighthouse/desktop-lighthouse3.jpg" width="50%" height="50%">
+4.  <img src="readme-documents/lighthouse/desktop-lighthouse4.jpg" width="50%" height="50%">
+5.  <img src="readme-documents/lighthouse/desktop-lighthouse5.jpg" width="50%" height="50%">
+6.  <img src="readme-documents/lighthouse/desktop-lighthouse6.jpg" width="50%" height="50%">
+
+    Mobile
+    
+1.  <img src="readme-documents/lighthouse" width="50%" height="50%">
+2.  <img src="readme-documents/lighthouse" width="50%" height="50%">
+3.  <img src="readme-documents/lighthouse" width="50%" height="50%">
+4.  <img src="readme-documents/lighthouse" width="50%" height="50%">
+5.  <img src="readme-documents/lighthouse" width="50%" height="50%">
+6.  <img src="readme-documents/lighthouse" width="50%" height="50%">
+
 ## **Fixed Issues**
 
 
