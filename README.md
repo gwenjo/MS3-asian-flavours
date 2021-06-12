@@ -623,7 +623,7 @@ Desktop
 5.  <img src="readme-documents/lighthouse/mobile-lighthouse5.jpg" width="50%" height="50%">
 6.  <img src="readme-documents/lighthouse/mobile-lighthouse6.jpg" width="50%" height="50%">
 
-Note: I don't know what happened in the meantime i was working on my readme, but when I started testing the mobile lighthouse version, two errors came up. <br />
+Note: I don't know what happened in the meantime when I was working on my readme, but when I started testing the mobile lighthouse version, two errors came up. <br />
 Namely; Failed to load resource: the server responded with a status of 404 ()
 I'm aware of this error. unfortunately I can't solve this as my deadline is today. I take it as an improvement point.
 
