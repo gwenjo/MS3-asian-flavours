@@ -265,15 +265,6 @@ In the navbar the user can choose to log out. When logging out, a flash banner a
  
 For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website.
 
-#### W3C CSS Validator
-
-The following page were passed through the W3C CSS validator:
-*   style.css
-
-<img src="readme-documents/testing/css-validator.jpg" width="50%" height="50%">
-
-When passed through the W3C CSS validator. The page passed without errors or warnings.
-
 User Stories
 
 ** First time user **
@@ -529,6 +520,14 @@ Mobile - Sign out
 **Validators**
 
 The validator that are used for this website are:
+
+-   [CSS Validator](https://validator.w3.org/nu/) - The following page was passed through the W3C CSS validator:
+*   style.css
+
+<img src="readme-documents/testing/css-validator.jpg" width="50%" height="50%">
+
+When passed through the W3C CSS validator. The page passed without errors or warnings.
+
 -   [HTML Validator](https://validator.w3.org/nu/) - the website works as it should 
 
 <img src="readme-documents/testing/html-validator.jpg" width="50%" height="50%">
@@ -539,7 +538,7 @@ For the HTML validator there was one warning found. Section lacks heading. Consi
 
 <img src="readme-documents/testing/jshint.jpg" width="50%" height="50%">
 
--   [Python Validator](http://pep8online.com/) the website works as it should
+-   [Python Validator](http://pep8online.com/) No strange errors where found        the website works as it should.
 
 <img src="readme-documents/testing/python-results.jpg" width="50%" height="50%">
 
