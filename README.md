@@ -66,17 +66,18 @@ In the navigation and throughout the website there are several buttons that will
 
 **Framework**
 
-* Front-end framework, [Materialize](https://materializecss.com/)
-was used for this website. It was used to create features such as navigation bar, forms and buttons.
+-   For the Front-end framework, [Materialize](https://materializecss.com/)
+    was used for this website. It was used to create features such as navigation bar, forms and buttons.
 
-* [JQuery](https://jquery.com/) was used to initialize some Materialize elements.
+-   [JQuery](https://jquery.com/) was used to initialize some Materialize 
+    elements.
 
-* Micro framework [Flask](https://flask.palletsprojects.com/en/1.1.x/), 
-for this website flask was chosen to build the backend.
+-   Micro framework [Flask](https://flask.palletsprojects.com/en/1.1.x/), 
+    was usedfor this website, flask was chosen to build the backend.
 
 **Typography**
 
-- I used [Google Fonts](https://fonts.google.com/specimen/Roboto) for the font style of this project. The font used for this website is Roboto with a backup font of Sans-serif. It is a simple and easy to read font. The font is also easy to read on smaller devices.
+-   [Google Fonts](https://fonts.google.com/specimen/Roboto) was used for the font style of this project. The font used for this website is Roboto with a backup font of Sans-serif. It is a simple and easy to read font. The font is also easy to read on smaller devices.
 
 **Icons**
 -   An existing favicon has been chosen for this website [Favicon](https://         favicon.io/). 
@@ -91,17 +92,15 @@ Edit button
 color: Green darken-2
 
 Delete button
-color: Red darken-2 
+color:  Red darken-2 
 
 Card-Panel
-grey lighten-5
+Color:  #eeeeee grey lighten-3
 
-Kleuren nog uitwerken!!!
-
-page-header 
+Page-header 
 color: #880e4f
 
-home-image h1
+Home-image h1
 color: #fff
 
 All Icons
@@ -114,8 +113,9 @@ flash messages
 color: #880e4f pink darken-4
 
 ## **Wireframes**
+
 ---
-For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
+For the user stories [Balsamiq](https://balsamiq.com/) was used to create a nice and simple layout for the desktop and mobile screen.
 
 Links to the wireframes can be found here:
 
@@ -715,11 +715,15 @@ Click on ‘View’ to launch the app.
 
 ## **Credits**
 ---
-**Content and Media**
+**Code i've used**
 
 I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY.<br />
 
-Content
+
+
+
+
+**Content and Media**
 
 I have used different websites for different recipes. The content and images used in this site were obtained from links below:
 
