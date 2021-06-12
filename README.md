@@ -30,11 +30,13 @@ live site [Asian Flavours](https://asian-flavours.herokuapp.com/)
 
 ## **UX (User Experience)** ##
 ### **Project Summary** ###
+---
 
 The goal of this project is (CRUD) to create a database of recipes that allows users to add, read, update and delete recipes.
 Asian Flavors gives access to all recipes in the database for all registered and unregistered users. Registered users can add new recipes, edit and delete their own recipes.
 
 ### **User Stories** ###
+---
 ** First time user **
 
 -	As a first user, I want to be able to register easily.
@@ -56,6 +58,7 @@ Asian Flavors gives access to all recipes in the database for all registered and
 -   As the site owner, I want the user to be able to see all recipes added by       the registered users.
 
 ### **Design choices**
+---
 
 The chosen design for this website is clear and user-friendly.
 
@@ -74,7 +77,6 @@ for this website flask was chosen to build the backend.
 **Typography**
 
 - I used [Google Fonts](https://fonts.google.com/specimen/Roboto) for the font style of this project. The font used for this website is Roboto with a backup font of Sans-serif. It is a simple and easy to read font. The font is also easy to read on smaller devices.
-
 
 **Icons**
 -   An existing favicon has been chosen for this website [Favicon](https://         favicon.io/). 
@@ -111,9 +113,8 @@ color: #bdbdbd grey lighten-1
 flash messages
 color: #880e4f pink darken-4
 
----
-
 ## **Wireframes**
+---
 For the user stories I used [Balsamiq](https://balsamiq.com/) to create a nice and simple layout for the desktop and mobile screen.
 
 Links to the wireframes can be found here:
@@ -144,10 +145,9 @@ Mobile Wireframe, for bigger image [click here the following numbers [ (1a.) ](r
 
 
 Note: There were some layout changes. The result is not quite the same as the examples of the wireframes.
- 
----
 
 ## **Features**
+---
 
 ***Home/ Index Page***
 
@@ -231,40 +231,99 @@ In the navbar the user can choose to log out. When logging out, a flash banner a
 -   Rate the recipe.
 -   ption to download the recipe.
 
----
+
 ## **Technologies**
+---
 
 **Deployment**
-  * [Heroku](https://dashboard.heroku.com/)
-  * [Git](https://git-scm.com/)
-  * [Github](https://github.com/)
-  * [Gitpod](https://gitpod.io/)
+
+* [Heroku](https://dashboard.heroku.com/) was used to deploy live site.
+* [Github](https://github.com/) was used to create a repository.
+* [Gitpod](https://gitpod.io/) was used for working in my repository.
 
 **Front-End**
-- [HTML5](https://en.wikipedia.org/wiki/HTML)
-    - To give the page its structure and presenting static data.
-    - All HTML files are located within the 'templates' directory.
-- [CSS](https://en.wikipedia.org/wiki/CSS)
-    - CSS has been used to style and customise the content of this project.
-- [Materialize](https://materializecss.com/)
-    - This is a framework that I have used to simplify CSS classes, features that have been used and modified include the navbar, responsive design classes, and colors for backgrounds and text.
-- [JQuery](https://en.wikipedia.org/wiki/JQuery)
-    - JQuery has been used to give the site its functionality as well as making DOM manipulation simpler.
 
-- **Back-end**
-- [MongoDB](https://www.mongodb.com/) 
-- [Flask](https://flask.palletsprojects.com/en/2.0.x/)
-- [werkzeug.security](https://werkzeug.palletsprojects.com/en/1.0.x/utils/)
-      - generate_password_hash
-      - check_password_hash
-- [datetime](https://docs.python.org/3/library/datetime.html)
-      - datetime
-- [Python](https://www.python.org/)
+[HTML5](https://en.wikipedia.org/wiki/HTML) 
+-   HTML was used to create the layout and gave the page structure and  
+    presenting static data.
+-   In the folder 'templates' you will find all HTML files.
 
----
+[CSS](https://en.wikipedia.org/wiki/CSS)
+-   CSS was used to style and customise the layout.
+
+[Materialize](https://materializecss.com/)
+-   This framework is used to simplify CSS classes, the navigation bar, text 
+    colors, backgrounds, and responsive design classes.
+
+[JQuery](https://en.wikipedia.org/wiki/JQuery)
+-   JQuery has been used to give the site its functionality and to make DOM 
+    manipulation easier.
+
+**Frameworks and Libraries**
+-   [MongoDB](https://www.mongodb.com/) was used to host database information.
+-   [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+-   [Flask-PyMongo](https://pypi.org/project/Flask-PyMongo/)
+-   [Pip3](https://pip.pypa.io/en/stable/)
+-   [dnspython](https://www.dnspython.org/)
+-   [jQuery](https://jquery.com/)
+-   [Flask Paginate](https://pythonhosted.org/Flask-paginate/)
+-   [Jinja](https://jinja.palletsprojects.com/en/3.0.x/)
+-   [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/)
+-   [Materialize](https://materializecss.com/)
+-   [FontAwesome](https://fontawesome.com/)
+-   [Google Fonts](https://fonts.google.com/) 
+-   [werkzeug.security](https://werkzeug.palletsprojects.com/en/1.0.x/utils/)
+    * generate_password_hash
+    * check_password_hash
+-   [Python3](https://www.python.org/)
+
+
+**Tools used**
+
+**[Balsamiq](https://balsamiq.com/)**
+-   Before I started on the website, I used Balsamiq software to set up my  
+    wireframe. <br>
+
+**[Google Fonts](https://fonts.google.com/)**
+-   Google Fonts was used to select the font for my website.
+
+**[Pexels](https://pexels.com/)**
+-   The images for the recipes mostly come from the website where the recipes       come from. But some images were nicer from Pexels.com. All names of the         photographers are listed in the media section below this page.
+
+**[Resize It](https://apps.apple.com/us/app/resize-it-image-resize/id844716779)**
+-   Resize It was used to easily crop the photos to the correct size. I used my
+    phone for this
+
+**[Materialize](https://materializecss.com/color.html)**
+-  For the color selection Materialize was used. 
+
+**[W3School](https://www.w3schools.com/)**
+
+**[Css Beautifier](https://www.freeformatter.com/css-beautifier.html)**
+-   Css Beautifier was used for formatting my CSS code.
+
+**[Am I Responsive Design](http://ami.responsivedesign.is)**
+-   For the mockup in the beginning of my readme file Am I Responsive Design 
+    was used 
+
+**[W3C HTML Validator](https://validator.w3.org/)**
+-   To validate my HTML code this tool was used.
+
+**[W3C CSS Validator](http://jigsaw.w3.org/css-validator/)**
+-    To validate my CSS code this tool was used.
+
+**[Dillinger](https://dillinger.io/)**
+-   To make my README file more organized Dillenger was used.
+
+**[Wave Webaim](https://wave.webaim.org/)**
+-   webaim was used to check the contrast of my website.
+
+**[JSHint](https://jshint.com/)**
+-   JSHintFwas used for detecting errors and potential problems.
 
 ## **Testing** ##
- 
+---
+
 For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website.
 
 User Stories
@@ -455,7 +514,6 @@ The navigation bar will be the same as the home page. Everything works as it sho
 
 5. Under the sign the card panel is the text New Here? Sign Up! the "sign Up!" is a link. When you click on this link it will direct you to the sign up page. This link has been tested and works properly.
 
-
 ** Profile Page** 
 
 1.  When you are signed in and/or you have created a new account, it will refer you to the profile page. This page is linked to the user. The user can add, edit and delete his or her recipes here. 
@@ -570,6 +628,7 @@ Desktop
 
 
 ## **Deployment**
+---
 
 Github
 
@@ -655,10 +714,10 @@ Click on ‘View’ to launch the app.
  
 
 ## **Credits**
-- **Content and Media**
+---
+**Content and Media**
 
 I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY.<br />
-
 
 Content
 
@@ -694,6 +753,7 @@ Used websites and images:
 For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website
 
 ### **Acknowledgements**
+---
 
 I want to thank my friends and family for putting up with my moodiness these past few weeks.
 
