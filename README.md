@@ -629,6 +629,8 @@ When I ran my website through the webaim contrast checker there were minor contr
 
 In the beginning I had a few problems with mongodb. I started over several times because I didn't know where my mistake was. This has all been solved and all data is correct in MongoDB.
 
+At first you could also enter letters to enter the servings and duration time. I changed this by adjusting the input, now you can only enter numbers.
+
 ## **Deployment**
 ---
 
@@ -666,7 +668,6 @@ To properly explain the deployment to Heroku progress. I’ll give a detailed ex
 6. Go to [Heroku]( https://id.heroku.com/login) and login, on your dashboard on the right, click ‘New’ than ‘Create new app’:
 
     <img src="readme-documents/deployment/new-app.png" width="50%" height="50%">
-    
     
 -   Create an app name
 -   Choose region closest to you:
@@ -717,13 +718,6 @@ Click on ‘View’ to launch the app.
 
 ## **Credits**
 ---
-**Code i've used**
-
-I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY.<br />
-
-
-
-
 
 **Content and Media**
 
@@ -755,8 +749,23 @@ Used websites and images:
 -   Image from [Quang Nguyen Vinh](https://images.pexels.com/photos/2133989/pexels-photo-2133989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
 
 **Resources**
+**Code i've used**
+
+I want to reiterate that THIS PROJECT IS FOR EDUCATION USE ONLY.<br />
 
 For the main foundation of this website I used Tim Nelson's Code Institute Task Manager Mini-Project. Then I modified it to my website
+
+Materialize was used for the:<br />
+[Nabar](https://materializecss.com/navbar.html)<br />
+[Buttons](https://materializecss.com/buttons.html)<br />
+[Colors](https://materializecss.com/color.html)<br />
+[Card-Panel](https://materializecss.com/cards.html)<br />
+[Icons](https://materializecss.com/icons.html)
+
+
+W3schools was used for:
+[Input type](https://www.w3schools.com/tags/att_input_type_text.asp)
+
 
 ### **Acknowledgements**
 ---
